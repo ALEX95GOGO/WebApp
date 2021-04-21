@@ -1,0 +1,31 @@
+
+Please cite the following paper when using nnUNet:
+Fabian Isensee, Paul F. Jäger, Simon A. A. Kohl, Jens Petersen, Klaus H. Maier-Hein "Automated Design of Deep Learning Methods for Biomedical Image Segmentation" arXiv preprint arXiv:1904.08128 (2020).
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+using model stored in  /home/zhuoli.zhuang/nnUNet_data/nnUNet_trained_models/nnUNet/3d_fullres/Task125_DoubleLung/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1
+This model expects 1 input modalities for each image
+Found 36 unique case ids, here are some examples: ['DoubleLung_005494' 'DoubleLung_006466' 'DoubleLung_006519'
+ 'DoubleLung_006443' 'DoubleLung_006546' 'DoubleLung_006515'
+ 'DoubleLung_006090' 'DoubleLung_005235' 'DoubleLung_006480'
+ 'DoubleLung_006534']
+If they don't look right, make sure to double check your filenames. They must end with _0000.nii.gz etc
+number of cases: 36
+number of cases that still need to be predicted: 9
+emptying cuda cache
+loading parameters for folds, [0]
+2021-04-19 03:49:51.480318: Using dummy2d data augmentation
+using the following model files:  ['/home/zhuoli.zhuang/nnUNet_data/nnUNet_trained_models/nnUNet/3d_fullres/Task125_DoubleLung/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model']
+starting preprocessing generator
+starting prediction...
+preprocessing /home/zhuoli.zhuang/nnUNet_data/result/Task125_DoubleLung/DoubleLung_006481.nii.gz
+using preprocessor GenericPreprocessor
+before crop: (1, 144, 512, 512) after crop: (1, 144, 512, 512) spacing: [2.5        0.97656202 0.97656202] 
+
+no separate z, order 3
+no separate z, order 1
+before: {'spacing': array([2.5       , 0.97656202, 0.97656202]), 'spacing_transposed': array([2.5       , 0.97656202, 0.97656202]), 'data.shape (data is transposed)': (1, 144, 512, 512)} 
+after:  {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 144, 394, 394)} 
+
+(1, 144, 394, 394)
+This worker has ended successfully, no errors to report

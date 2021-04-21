@@ -23,7 +23,8 @@ import os
 from tqdm import tqdm
 import getopt
 import sys
-
+import random
+    
 def maybe_mkdir_p(path):
     isExists=os.path.exists(path)
     if not isExists:
@@ -78,16 +79,15 @@ if __name__ == "__main__":
         data2 = f.read()
         s2 = re.split('\n', data2)
         print(s2[0])
-    with open('./log/' + args[1], "r") as f:
-        data2 = f.read()
-        s3 = re.split(' ', data2)
-        print(s3[0])
-    base = r'./data/nii_base/124_lung_train/'
-    #base = "./WebApp/upload/" + s1[0] + '_' + s2[0] + '/'
-    #base = "H:/breast_k/cropped_data"
-    nnUNet_raw_data = "../../nnUNet_data/nnUNet_raw/nnUNet_raw_data/"
+    
+    nnUNet_raw_data = os.path.join(os.getenv('nnUNet_raw_data_base'),'nnUNet_raw_data')
+    #nnUNet_raw_data = "../../nnUNet_data/nnUNet_raw/nnUNet_raw_data/"
     task_id = int(s1[0])
     task_name = str(s2[0])
+    base = r'./data/nii_base/Task{}/'.format(task_id)
+    #base = "./WebApp/upload/" + s1[0] + '_' + s2[0] + '/'
+    #base = "H:/breast_k/cropped_data"
+
 
     foldername = "Task%03.0d_%s" % (task_id, task_name)
 
@@ -108,14 +108,39 @@ if __name__ == "__main__":
     
     train_patient_names = []
     test_patient_names = []
-    train_patients = subfolders(join(base, "train"), join=False)
+    
+    folder_list = os.listdir(base)
+
+    k = len(folder_list) // 5  # number of test images
+    
+    all_patients = subfolders(base, join=False)
+    random.shuffle(all_patients)
+    
+    for p in tqdm(all_patients,ncols=50):
+        name_p = re.sub("\D", "", p)
+        name = "%06.0d" % int(name_p)
+        #curr = join(base, "train", p)
+        curr = join(base, p)
+        if os.path.exists(os.path.join(curr, "{}.nii.gz".format(task_name))):
+            label_file = join(curr, "{}.nii.gz".format(task_name))
+            image_file = join(curr, "image.nii.gz")
+            sitkimage = sitk.ReadImage(image_file)
+            image = sitk.GetArrayFromImage(sitkimage)
+            sitklabel = sitk.ReadImage(label_file)
+            label = sitk.GetArrayFromImage(sitklabel)
+            if image.shape != label.shape:
+                all_patients.remove(p)
+    print ('Assert image and label size to be the same')
+
+    train_patients = all_patients[index[k:-1]]
+    #train_patients = subfolders(join(base, "train"), join=False)
     
 
     for p in tqdm(train_patients,ncols=50):
         name_p = re.sub("\D", "", p)
         name = "%06.0d" % int(name_p)
-        curr = join(base, "train", p)
-
+        #curr = join(base, "train", p)
+        curr = join(base, p)
         if os.path.exists(os.path.join(curr, "{}.nii.gz".format(task_name))):
             label_file = join(curr, "{}.nii.gz".format(task_name))
             image_file = join(curr, "image.nii.gz")
@@ -125,15 +150,18 @@ if __name__ == "__main__":
             train_patient_names.append(patient_name)
     print ('Train set copy done')
     
-    test_patients = subfolders(join(base, "test"), join=False)
+    #test_patients = subfolders(join(base, "test"), join=False)
+    test_patients = all_patients[index[0:k]]
     for p in tqdm(test_patients,ncols=50):
         name_p = re.sub("\D", "", p)
         name = "%06.0d" % int(name_p)
-        curr = join(base, "test", p)
-
+        #curr = join(base, "test", p)
+        curr = join(base, p)
         if os.path.exists(os.path.join(curr, "{}.nii.gz".format(task_name))):
+
             label_file = join(curr, "{}.nii.gz".format(task_name))
             image_file = join(curr, "image.nii.gz")
+
             shutil.copy(image_file, join(imagests, task_name +'_'+ name + "_0000.nii.gz"))
             shutil.copy(label_file, join(labelsts, task_name+ '_'+ name +".nii.gz"))
         #clip_file = join(curr, "GTV-C.nii.gz")

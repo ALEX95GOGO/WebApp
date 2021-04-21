@@ -10,27 +10,45 @@ import os
 import re
 from . import settings
 from WebApp.tasks import run_script
+from django.views.generic import View
 
-# Create your views here.
 
+class UserForm(forms.Form):
+    username = forms.CharField()
+    headImg = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True}))
+    
+def upload(request):
+    file = request.FILES  
+    if request.method == "POST":
+        myFile=request.FILES.get("file",None)
+        print(myFile)
+        if not myFile:
+            return HttpResponse("no files for upload!")
+        destination = open(os.path.join("./upload/", myFile.name),'wb+')
+        for chunk in myFile.chunks():
+            destination.write(chunk)
+        destination.close()
+    return HttpResponse("upload done!")
+
+def upload_files(request):
+    return render(request,'upload_page.html')
+    
 def get_media_upload_to(instance, filename):
     """
     A simple way to return the full path      
     """
     paths = { 'I':'images/', 'V':'videos/', 'A':'audio/', 'D':'documents/' }
     return settings.MEDIA_ROOT + 'content/' + paths[instance.content_type] + filename
-            
-class UserForm(forms.Form):
-    username = forms.CharField()
-    headImg = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True}))
 
 def register(request):
     if request.method == "POST":
         uf = UserForm(request.POST,request.FILES)
+
         if uf.is_valid():
             #ger form info
             username = uf.cleaned_data['username']
             headImg = uf.cleaned_data['headImg']
+            print(headImg)
             #write to the database
             user = User()
             user.username = username
@@ -58,15 +76,21 @@ def progress(request):
     
 #os.system('sh /home/zhuoli/data/train.sh>/home/zhuoli/data/webout.file 2>&1 &')
 
+def check_existing_id(request):
+    ids ={}
+    if request.POST:
+        ids['ids'] = os.listdir('/home/zhuoli.zhuang/nnUNet_data/nnUNet_raw/nnUNet_raw_data/')
+    return render(request, "search_form.html", ids)
+    
 def check_label(request):
     top_labels ={}
     if request.POST:
-        os.system('python3 ../print_labels.py taskid.file train_label.file')
+        os.system('python3 ./print_labels.py taskid.file train_label.file')
         with open('./log/labels.txt', "r") as f:
             data = f.read()
             s1 = re.split('\n', data)
-            if (len(s1)>6):
-                top_labels['tlabel'] = s1[1:6]
+            if (len(s1)>10):
+                top_labels['tlabel'] = s1[1:10]
             else:
                 top_labels['tlabel'] = s1[1:]
     return render(request, "search_form.html", top_labels)
@@ -83,13 +107,32 @@ def choose_label(request):
 def input_id(request):
     ctx ={}
     if request.POST:
-        ctx['rlt'] = request.POST['q0']
-        print(ctx['rlt'])
+        ctx['id'] = request.POST['q0']
+        print(ctx['id'])
         with open('./log/taskid.file','w',encoding='utf-8') as f:
-            text = str(ctx['rlt'])
+            text = str(ctx['id'])
             f.write(text)
     return render(request, "search_form.html", ctx)
 
+def mode(request):
+    mode_in ={}
+    if request.POST:
+        #mode_in['mode'] = request.POST['q2']
+        with open('./log/mode.file','w',encoding='utf-8') as f:
+            text = str(request)
+            f.write(text)
+        with open('./log/train_label.file','r',encoding='utf-8') as f:
+            label = f.read()
+            mode_in['label'] = str(label)
+        with open('./log/taskid.file','r',encoding='utf-8') as f:
+            id = f.read()
+            mode_in['id'] = str(id)
+        with open('./log/mode.file','r',encoding='utf-8') as f:
+            mode_all = f.read()
+            s_mode = re.split('/', mode_all)
+            mode_in['mode'] = str(s_mode[2])
+    return render(request, "search_form.html", mode_in)
+    
 #def task_name(request):
 #    ctx_name ={}
 #    if request.POST:
@@ -100,6 +143,11 @@ def input_id(request):
 #            f.write(text)
 #
 #    return render(request, "search_form.html", ctx_name)
+
+def overview(request):
+        #os.system('sh /home/zhuoli/data/train.sh>/home/zhuoli/data/webout.file 2>&1 &')
+    #views_str = "<a href='http://10.8.77.18:8000/progress'>Training progress</a>"
+    return render(request, "search_form.html")
     
 def import_data(request):
     if request.POST:
@@ -123,8 +171,10 @@ def prepare_data(request):
         print(settings.BASE_DIR)
         #os.system('cp {}/upload/{}_{}.tar /home/img/data/'.format(settings.BASE_DIR,s1[0],s1[1]))
         #os.system('tar -xvf /home/img/data/{}_{}.tar'.format(s1[0],s1[1]) )
-        #os.system('tar -xvf ./upload/{}_{}.tar -C ./data/nii_base'.format(s1[0],s2[0]))
-        os.system('python3 ../Task121_BreCW.py taskid.file train_label.file')
+        #os.system('tar -xvf ./upload/Task{}.tar -C ./data/dcm_base'.format(s1[0]))
+        #os.system('python3 ./DicomToNii-multi.py taskid.file')
+        #os.system('python3 ./prepare_data.py taskid.file train_label.file')
+        os.system('python3 ./Task121_BreCW.py taskid.file train_label.file')
         #os.system('bash prepare_data.sh {} {} {}'.format(settings.BASE_DIR, s1[0], s1[1]))
         #run_script.delay()
         print('preparing data')
@@ -147,27 +197,48 @@ def plan(request):
 #                  nnUNet_plan_and_preprocess -t {}
 #              """.format(int(s1[0]))
 #        call(cmd, shell=True)
-        os.system('nnUNet_plan_and_preprocess -t {}'.format(int(s1[0])))
+        os.system('nohup nnUNet_plan_and_preprocess -t {} > ./log/plan.file 2>&1 &'.format(int(s1[0])))
     views_str = "<a href='http://10.8.77.18:8000/progress'>Training progress</a>"
     return render(request, "search_form.html", {"views_str": views_str})
 
 def train(request):
     if request.POST:
+        with open('./log/mode.file', "r") as f:
+            data = f.read()
+            s0 = re.split('/', data)
+            print(s0[2])
         with open('./log/taskid.file', "r") as f:
             data = f.read()
             s1 = re.split('\n', data)
             print(s1[0])
-        os.system('nnUNet_train 3d_fullres nnUNetTrainerV2_noDeepSupervision {} 0 --npz'.format(int(s1[0])))
+            
+        with open('./log/train_label.file','r',encoding='utf-8') as f:
+            label = f.read()
+            mode_in['label'] = str(label)
+        with open('./log/taskid.file','r',encoding='utf-8') as f:
+            id = f.read()
+            mode_in['id'] = str(id)
+        with open('./log/mode.file','r',encoding='utf-8') as f:
+            mode_all = f.read()
+            s_mode = re.split('/', mode_all)
+            mode_in['mode'] = str(s_mode[2])
+            
+        os.system('nohup nnUNet_train -c {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz > ./log/train.file 2>&1 &'.format(s0[2],int(s1[0])))
     views_str = "<a href='http://10.8.77.18:8000/progress'>Training progress</a>"
     return render(request, "search_form.html", {"views_str": views_str})
 
 def predict(request):
     if request.POST:
+        with open('./log/mode.file', "r") as f:
+            data = f.read()
+            s0 = re.split('/', data)
         with open('./log/taskid.file', "r") as f:
             data = f.read()
-            s1 = re.split(' ', data)
-            print(s1[0])
-        os.system('nnUNet_predict -i /home/zhuoli.zhuang/data/nnUNet_raw_data_base/nnUNet_raw_data/Task{}_{}/imagesTs/ -o /home/zhuoli.zhuang/data/result/Task{}_{} -t {} -m 3d_fullres -f 0 -tr nnUNetTrainerV2_noDeepSupervision --disable_tta'.format(s1[0],s1[1],s1[0],s1[1],s1[0]))
+            s1 = re.split('\n', data)
+        with open('./log/train_label.file', "r") as f:
+            data = f.read()
+            s2 = re.split('\n', data)
+        os.system('nohup nnUNet_predict -i /home/zhuoli.zhuang/nnUNet_data/nnUNet_raw/nnUNet_raw_data/Task{}_{}/imagesTs/ -o /home/zhuoli.zhuang/nnUNet_data/result/Task{}_{} -t {} -m {} -f 0 -tr nnUNetTrainerV2_noDeepSupervision --disable_tta -chk model_best > ./log/predict.file 2>&1 &'.format(s1[0],s2[0],s1[0],s2[0],s1[0],s0[2]))
 
     return render(request, "search_form.html")
     
@@ -175,7 +246,7 @@ def evaluate(request):
     views_str = ''
     if request.POST:
         #os.system('sh /home/zhuoli/data/train.sh>/home/zhuoli/data/webout.file 2>&1 &')
-        os.system('python3 ../eval_DL_result.py taskid.file train_label.file')
+        os.system('python3 ./eval_DL_result.py taskid.file train_label.file')
         with open('./log/dice.file', "r") as f:
             data = f.read()
             views_str = 'average dice is: ' + str(data)
@@ -192,9 +263,9 @@ num_progress = 0
  
  
 
-def show_progress1(request):
-    # return JsonResponse(num_progress, safe=False)
-    return render(request, 'search_form.html')
+#def show_progress1(request):
+#    # return JsonResponse(num_progress, safe=False)
+#    return render(request, 'search_form.html')
  
  
 
@@ -213,6 +284,6 @@ def process_data(request):
     return JsonResponse(res, safe=False)
  
 
-def show_progress(request):
-    print('show_progress----------'+str(num_progress))
-    return JsonResponse(num_progress, safe=False)
+#def show_progress(request):
+#    print('show_progress----------'+str(num_progress))
+#    return JsonResponse(num_progress, safe=False)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-# name：dicom&rtss -> nii.gz
+# nameDicom&rtss -> nii.gz
 # date: 2021.02.02 auther: lecheng.jia
 # requirements: python 3.7+, md
 # added multiprocessing
@@ -21,9 +21,12 @@ import md
 import os
 import numpy as np
 from multiprocessing import Pool,Manager
+import getopt
+import sys
+import re
 
 def mkdir(path):
-    # 判断路径是否存在
+
     isExists=os.path.exists(path)
     if not isExists:
         os.makedirs(path)
@@ -66,10 +69,25 @@ def read_dicom_contour(input_path, output_path):
             md.write_image(dicom_contour[key], save_case_dir)
     num = num + 1
 
+def printUsage():
+	print ('''usage: DicomToNii-multi.py -i <input> -o <output>
+       test.py --in=<input> --out=<output>''')
 
 if __name__ == '__main__':
-    input_dir  =  r"./WebApp/data/dcm_base/124_lung/"
-    output_dir = r"./WebApp/data/nii_base/124_lung/"
+    inputarg=""
+    outputarg=""
+    try:
+		    opts, args = getopt.getopt(sys.argv[1:],"hi:o:",["in=","out="])
+    except getopt.GetoptError:
+        printUsage()
+        sys.exit(-1)
+    
+    with open('./log/' + args[0], "r") as f:
+        data1 = f.read()
+        s1 = re.split('\n', data1)
+        print(s1[0])
+    input_dir  =  r"./data/dcm_base/Task{}/".format(s1[0])
+    output_dir = r"./data/nii_base/Task{}/".format(s1[0])
     mkdir(output_dir)
     input_case,output_case = [],[]
     for case in os.listdir(input_dir):
@@ -98,5 +116,15 @@ if __name__ == '__main__':
     process_pool.close()
     process_pool.join()
     print('generate mask processes finished')
+    
+    print("**********************************************")    
+    path=output_dir
+    
+    for root,dirs,files in os.walk(path):
+        for name in files:
+            NewFileName=name.replace(" ",'');
+            NewFileName=os.path.join(root,NewFileName);
+            print(NewFileName);
+            os.rename(os.path.join(root,name),os.path.join(root,NewFileName))
 
 

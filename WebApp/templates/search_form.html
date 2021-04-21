@@ -10,10 +10,16 @@
 <body>
     <h1>Automated training platform</h1>
     
-    <form action="/" method="post">
+    <form action="/upload_page/" form method="post">
         {% csrf_token %}
         <input type="submit" value="import">
     </form>
+    
+    <form action="/check_existing_id/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="check existing id">
+    </form>
+    <p>Existing IDs are:{{ ids }} </p>
     
     <p>Input task ID here (example: 111)</p>
     <form action="/input_id/" method="post">
@@ -21,7 +27,7 @@
         <input type="submit" value="task ID:">
         <input type="text" name="q0">
     </form>
-    <p>Task ID and task name is: {{ rlt }}</p>
+    <!--<p>Task ID is: {{ rlt }}</p> -->
     
     <form action="/check_label/" method="post">
         {% csrf_token %}
@@ -34,9 +40,30 @@
         <input type="submit" value="label name">
         <input type="text" name="q1">
     </form>
-    <p>Label choosen is: {{ label }}</p>
     
+    <p>Mode: <p>
 
+    <form action="/mode/2d/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="2d">
+    </form>
+    
+    <form action="/mode/3d_fullres/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="3d_fullres">
+    </form>
+    
+    <!--
+    <form action="/mode/3d_cascade/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="3d_cascade">
+    </form>
+    -->
+    
+    <p>Task ID is: {{ id }} </p>  
+    <p>Label choosen is: {{ label }} </p>
+    <p>Mode choosen is: {{ mode }} </p>
+    
     
     <form action="/prepare_data/" method="post">
         {% csrf_token %}
@@ -74,15 +101,15 @@
 
 
 
-
+<!--
 <body>
-    <!--1. button-->
+    <!--1. button--
     <div class="container">
  
         <button class="btn btn-default" type="button">show progress bar</button>
  
  
-	    <!--2. progress bar-->
+	    <!--2. progress bar--
 	    <div  class="progress-div">
 	        <div class="progress">
 	            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 2%;">
@@ -171,7 +198,7 @@
     <script>
 
         window.addEventListener('load',function(){
-            var imgUrls = ['/prediction/optic_r_007852/0.bmp','/prediction/optic_r_007852/1.bmp','/prediction/optic_r_007852/2.bmp','/prediction/optic_r_007852/3.bmp','/prediction/optic_r_007852/4.bmp','/prediction/optic_r_007852/5.bmp'];
+            var imgUrls = ['/prediction/DoubleLung_005927/0.bmp','/prediction/DoubleLung_005927/1.bmp','/prediction/DoubleLung_005927/2.bmp','/prediction/DoubleLung_005927/3.bmp','/prediction/DoubleLung_005927/4.bmp','/prediction/DoubleLung_005927/5.bmp'];
             var imgSrcs = imgUrls;
             var interval = 1000;
             var viewer = document.getElementById('viewer');
@@ -189,6 +216,7 @@
             setInterval(setImage,interval);
              
         });
+        */
     </script>
 </head>
 <body>
@@ -199,7 +227,7 @@
 
 <meta http-equiv="refresh" content="60">   
 
-
+-->
 <p></p>
 <p>Dependencies: nnUnet(https://github.com/MIC-DKFZ/nnUNet)</p>
 </body>

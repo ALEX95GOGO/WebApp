@@ -32,7 +32,7 @@ with open('./log/' + args[1], "r") as f:
     s2 = re.split('\n', data2)
     print(s2[0])
 
-root = r'./data/nii_base/{}_{}'.format(s1[0],s2[0])
+root = r'./data/nii_base/Task{}'.format(s1[0])
 
 foldernames = os.listdir(root)
 niis = []

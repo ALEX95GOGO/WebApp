@@ -3,19 +3,19 @@ import os,sys
 
 def showImageInHTML(imageTypes,imagedir,savedir):
     folder_list = os.listdir(imagedir)
-    #print(folder_list)
-    files=getAllFiles(imagedir + '/' + folder_list[0])
+    print(folder_list)
+    files=getAllFiles(imagedir + '/' + folder_list[1])
     images=[f for f in files if f[f.rfind('.')+1:] in imageTypes]
     #images.sort(key=lambda x:int(x[:-4]))
     #print(files)
     images=[item for item in images if os.path.getsize(item)>5*1024]
     images=[item[item.rfind('/'):] for item in images]
     images.sort(key=lambda x:int(x[1:-4]))
-    images=['/prediction/' + folder_list[0] + item for item in images]
+    images=['/prediction/' + folder_list[1] + item for item in images]
     newfile='%s/%s'%(savedir,'images.html')
     with open(newfile,'w') as f:
         f.write('<div>')
-        f.write('<h1>Image ID is :'+folder_list[0]+'</h1>')
+        f.write('<h1>Image ID is :'+folder_list[1]+'</h1>')
         for image in images:
             f.write("<img src='%s'>\n"%image)
         f.write('</div>')
@@ -40,6 +40,6 @@ def cur_file_dir():
      
 if __name__ == '__main__':
     #savedir=cur_file_dir()
-    imagedir=r'/home/img/data/compare/Task121_optic_r/'
+    imagedir=r'{}/compare/Task125_DoubleLung/'.format(os.getenv('nnUNet_raw_data_base'))
     savedir=r'./templates'
     showImageInHTML(('bmp','png','gif'),imagedir, savedir)

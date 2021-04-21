@@ -1,0 +1,57 @@
+
+Please cite the following paper when using nnUNet:
+Fabian Isensee, Paul F. Jäger, Simon A. A. Kohl, Jens Petersen, Klaus H. Maier-Hein "Automated Design of Deep Learning Methods for Biomedical Image Segmentation" arXiv preprint arXiv:1904.08128 (2020).
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+###############################################
+I am running the following nnUNet: 3d_fullres
+My trainer class is:  <class 'nnunet.training.network_training.nnUNet_variants.architectural_variants.nnUNetTrainerV2_noDeepSupervision.nnUNetTrainerV2_noDeepSupervision'>
+For that I will be using the following configuration:
+num_classes:  1
+modalities:  {0: 'CT'}
+use_mask_for_norm OrderedDict([(0, False)])
+keep_only_largest_region None
+min_region_size_per_class None
+min_size_per_class None
+normalization_schemes OrderedDict([(0, 'CT')])
+stages...
+
+stage:  0
+{'batch_size': 2, 'num_pool_per_axis': [3, 5, 5], 'patch_size': array([ 56, 224, 192]), 'median_patient_size_in_voxels': array([ 90, 327, 327]), 'current_spacing': array([3.91202687, 1.98657577, 1.98657577]), 'original_spacing': array([2.5       , 1.26953101, 1.26953101]), 'do_dummy_2D_data_aug': True, 'pool_op_kernel_sizes': [[2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2], [1, 2, 2]], 'conv_kernel_sizes': [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]]}
+
+stage:  1
+{'batch_size': 2, 'num_pool_per_axis': [3, 5, 5], 'patch_size': array([ 56, 224, 192]), 'median_patient_size_in_voxels': array([141, 512, 512]), 'current_spacing': array([2.5       , 1.26953101, 1.26953101]), 'original_spacing': array([2.5       , 1.26953101, 1.26953101]), 'do_dummy_2D_data_aug': True, 'pool_op_kernel_sizes': [[2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2], [1, 2, 2]], 'conv_kernel_sizes': [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]]}
+
+I am using stage 1 from these plans
+I am using batch dice + CE loss
+
+I am using data from this folder:  /home/zhuoli.zhuang/nnUNet_data/nnUNet_preprocessed/Task125_DoubleLung/nnUNetData_plans_v2.1
+###############################################
+2021-04-19 03:16:34.893671: Using dummy2d data augmentation
+loading dataset
+loading all case properties
+unpacking dataset
+done
+Traceback (most recent call last):
+  File "/home/zhuoli.zhuang/.local/bin/nnUNet_train", line 33, in <module>
+    sys.exit(load_entry_point('nnunet', 'console_scripts', 'nnUNet_train')())
+  File "/home/zhuoli.zhuang/nnUNet-master/nnunet/run/run_training.py", line 143, in main
+    trainer.initialize(not validation_only)
+  File "/home/zhuoli.zhuang/nnUNet-master/nnunet/training/network_training/nnUNet_variants/architectural_variants/nnUNetTrainerV2_noDeepSupervision.py", line 128, in initialize
+    self.initialize_network()
+  File "/home/zhuoli.zhuang/nnUNet-master/nnunet/training/network_training/nnUNet_variants/architectural_variants/nnUNetTrainerV2_noDeepSupervision.py", line 161, in initialize_network
+    self.network.cuda()
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 463, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 359, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 359, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 359, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 381, in _apply
+    param_applied = fn(param)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 463, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+RuntimeError: CUDA error: out of memory
