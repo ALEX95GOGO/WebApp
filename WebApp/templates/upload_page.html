@@ -10,6 +10,9 @@
 				var percent = Math.round((evt.loaded) * 100 / evt.total);
 				ele.style.width = percent + '%';
 				document.getElementById('3').innerHTML = percent + '%';
+        if(percent==100){
+        window.location.href="../upload/";
+        }
 			}
 		}
 		function upload() {
@@ -18,7 +21,7 @@
 			var form = new FormData();   
       form.append('file',file);   
 			xhr.upload.addEventListener('progress',on_progress,false);     
-			xhr.open('POST','http://10.8.61.33:8000/upload/',true); 
+			xhr.open('POST','../upload_page/',true); 
       xhr.setRequestHeader('X-CSRFTOKEN','{{ request.COOKIES.csrftoken }}');   
 			xhr.send(form);  
 		}
@@ -35,7 +38,10 @@
  
 		<input type="file" id='file' class='file' name="file"><br><br>
 		<button type="button" onclick='upload();'>upload</button>
- 
+    
 	</form>
+ 
+ {{ views_str|safe }}
+ 
 </body>
 </html>

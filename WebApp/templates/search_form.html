@@ -77,6 +77,7 @@
     
     <form action="/train/" method="post">
         {% csrf_token %}
+        <!--<input type="submit" value={{ button }}>-->
         <input type="submit" value="train">
     </form>
     
@@ -84,7 +85,9 @@
         {% csrf_token %}
         <input type="submit" value="predict">
     </form>
-    
+    <p> planning progress: {{ planned_cases }}  {{ file_num }}  </p>
+    <p> training progress:{{ epoch }} {{ total_epoch }} </p>
+    <p> predicting progress:{{ num_predicted }} {{ ts_image }} </p>
     <form action="/evaluate/" method="post">
         {% csrf_token %}
         <input type="submit" value="evaluation">
@@ -94,6 +97,13 @@
         {% csrf_token %}
         <input type="submit" value="check result">
     </form>
+    
+
+    <form action="/download/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="download model">
+    </form>
+
  
 {{ views_str|safe }}
 <img src="/img/progress.png" alt="progress"/ width="1000" height="800">

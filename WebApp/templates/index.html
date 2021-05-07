@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin UI</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="4"><h1>Welcome to Admin Page</h1></td>
+    </tr>
+    <tr>
+        <td colspan="4"><a href="../toAddUserPage/">Add User</a></td>
+    </tr>
+    <tr>
+        <th>User ID</th>
+        <th>User name</th>
+        <th>password</th>
+        <th>operation</th>
+    </tr>
+    {% for user in users %}
+        <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.username }}</td>
+            <td>{{ user.password }}</td>
+            <td><a href="../toUpdateUserPage?id={{ user.id }}">modify</a>
+                <a href="../delUser?id={{ user.id }}">delete</a>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

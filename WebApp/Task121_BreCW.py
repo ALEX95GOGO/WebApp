@@ -84,7 +84,7 @@ if __name__ == "__main__":
     #nnUNet_raw_data = "../../nnUNet_data/nnUNet_raw/nnUNet_raw_data/"
     task_id = int(s1[0])
     task_name = str(s2[0])
-    base = r'./data/nii_base/Task{}/'.format(task_id)
+    base = r'../data/nii_base/Task{}/'.format(task_id)
     #base = "./WebApp/upload/" + s1[0] + '_' + s2[0] + '/'
     #base = "H:/breast_k/cropped_data"
 
@@ -115,7 +115,6 @@ if __name__ == "__main__":
     
     all_patients = subfolders(base, join=False)
     random.shuffle(all_patients)
-    
     for p in tqdm(all_patients,ncols=50):
         name_p = re.sub("\D", "", p)
         name = "%06.0d" % int(name_p)
@@ -125,14 +124,12 @@ if __name__ == "__main__":
             label_file = join(curr, "{}.nii.gz".format(task_name))
             image_file = join(curr, "image.nii.gz")
             sitkimage = sitk.ReadImage(image_file)
-            image = sitk.GetArrayFromImage(sitkimage)
             sitklabel = sitk.ReadImage(label_file)
-            label = sitk.GetArrayFromImage(sitklabel)
-            if image.shape != label.shape:
+            if sitkimage.GetSize() != sitklabel.GetSize():
                 all_patients.remove(p)
     print ('Assert image and label size to be the same')
 
-    train_patients = all_patients[index[k:-1]]
+    train_patients = all_patients[k:-1]
     #train_patients = subfolders(join(base, "train"), join=False)
     
 
@@ -151,7 +148,7 @@ if __name__ == "__main__":
     print ('Train set copy done')
     
     #test_patients = subfolders(join(base, "test"), join=False)
-    test_patients = all_patients[index[0:k]]
+    test_patients = all_patients[0:k]
     for p in tqdm(test_patients,ncols=50):
         name_p = re.sub("\D", "", p)
         name = "%06.0d" % int(name_p)

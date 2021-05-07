@@ -14,25 +14,13 @@ except getopt.GetoptError:
 for opt,arg in opts:
     if opt == '-h':
         printUsage()
-    elif opt in ("-i", "--id"):
-        idarg=arg
-    elif opt in ("-n","--name"):
-        namearg=arg
-        
-print ('id:'+inputarg)
-#print ('name:'+outputarg)
-print ('other param:'+",".join(args))
 
 with open('./log/' + args[0], "r") as f:
     data1 = f.read()
     s1 = re.split('\n', data1)
     print(s1[0])
-with open('./log/' + args[1], "r") as f:
-    data2 = f.read()
-    s2 = re.split('\n', data2)
-    print(s2[0])
 
-root = r'./data/nii_base/Task{}'.format(s1[0])
+root = r'../data/nii_base/Task{}'.format(s1[0])
 
 foldernames = os.listdir(root)
 niis = []

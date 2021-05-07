@@ -1,0 +1,2160 @@
+
+Please cite the following paper when using nnUNet:
+Fabian Isensee, Paul F. Jäger, Simon A. A. Kohl, Jens Petersen, Klaus H. Maier-Hein "Automated Design of Deep Learning Methods for Biomedical Image Segmentation" arXiv preprint arXiv:1904.08128 (2020).
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+LungL_006574
+before crop: (1, 80, 512, 512) after crop: (1, 80, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006477
+before crop: (1, 71, 512, 512) after crop: (1, 71, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006533
+before crop: (1, 72, 512, 512) after crop: (1, 72, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007594
+before crop: (1, 82, 512, 512) after crop: (1, 82, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006472
+before crop: (1, 68, 512, 512) after crop: (1, 68, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006443
+before crop: (1, 83, 512, 512) after crop: (1, 83, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006844
+before crop: (1, 75, 512, 512) after crop: (1, 75, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006476
+before crop: (1, 72, 512, 512) after crop: (1, 72, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006838
+before crop: (1, 69, 512, 512) after crop: (1, 69, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006803
+before crop: (1, 68, 512, 512) after crop: (1, 68, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006600
+before crop: (1, 79, 512, 512) after crop: (1, 79, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007735
+before crop: (1, 85, 512, 512) after crop: (1, 85, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006893
+before crop: (1, 81, 512, 512) after crop: (1, 81, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006798
+before crop: (1, 76, 512, 512) after crop: (1, 76, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006569
+before crop: (1, 80, 512, 512) after crop: (1, 80, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006890
+before crop: (1, 70, 512, 512) after crop: (1, 70, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006954
+before crop: (1, 67, 512, 512) after crop: (1, 67, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006578
+before crop: (1, 81, 512, 512) after crop: (1, 81, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_003937
+before crop: (1, 92, 512, 512) after crop: (1, 92, 512, 512) spacing: [2.5        1.26953101 1.26953101] 
+
+LungL_006564
+before crop: (1, 97, 512, 512) after crop: (1, 97, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007659
+before crop: (1, 75, 512, 512) after crop: (1, 75, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007311
+before crop: (1, 77, 512, 512) after crop: (1, 77, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007552
+before crop: (1, 116, 512, 512) after crop: (1, 116, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006918
+before crop: (1, 86, 512, 512) after crop: (1, 86, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006589
+before crop: (1, 77, 512, 512) after crop: (1, 77, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006870
+before crop: (1, 75, 512, 512) after crop: (1, 75, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007569
+LungL_006464
+before crop: (1, 70, 512, 512) after crop: (1, 70, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006584
+before crop: (1, 69, 512, 512) after crop: (1, 69, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006535
+before crop: (1, 131, 512, 512) after crop: (1, 131, 512, 512) spacing: [2.5        1.26953101 1.26953101] 
+
+LungL_006829
+before crop: (1, 78, 512, 512) after crop: (1, 78, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006571
+before crop: (1, 67, 512, 512) after crop: (1, 67, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007662
+before crop: (1, 74, 512, 512) after crop: (1, 74, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007569
+before crop: (1, 98, 512, 512) after crop: (1, 98, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006989
+before crop: (1, 80, 512, 512) after crop: (1, 80, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007585
+before crop: (1, 79, 512, 512) after crop: (1, 79, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007683
+before crop: (1, 71, 512, 512) after crop: (1, 71, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006780
+before crop: (1, 64, 512, 512) after crop: (1, 64, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007553
+before crop: (1, 79, 512, 512) after crop: (1, 79, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006804
+before crop: (1, 76, 512, 512) after crop: (1, 76, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006519
+before crop: (1, 72, 512, 512) after crop: (1, 72, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007682
+before crop: (1, 77, 512, 512) after crop: (1, 77, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007308
+before crop: (1, 77, 512, 512) after crop: (1, 77, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006559
+before crop: (1, 59, 512, 512) after crop: (1, 59, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007723
+before crop: (1, 87, 512, 512) after crop: (1, 87, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006470
+before crop: (1, 72, 512, 512) after crop: (1, 72, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006827
+before crop: (1, 80, 512, 512) after crop: (1, 80, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006552
+before crop: (1, 77, 512, 512) after crop: (1, 77, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006915
+before crop: (1, 83, 512, 512) after crop: (1, 83, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006500
+before crop: (1, 82, 512, 512) after crop: (1, 82, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006878
+before crop: (1, 72, 512, 512) after crop: (1, 72, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006755
+before crop: (1, 66, 512, 512) after crop: (1, 66, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007694
+before crop: (1, 102, 512, 512) after crop: (1, 102, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007695
+before crop: (1, 74, 512, 512) after crop: (1, 74, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006904
+before crop: (1, 73, 512, 512) after crop: (1, 73, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007565
+before crop: (1, 91, 512, 512) after crop: (1, 91, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006896
+before crop: (1, 71, 512, 512) after crop: (1, 71, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007500
+before crop: (1, 94, 512, 512) after crop: (1, 94, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007753
+before crop: (1, 94, 512, 512) after crop: (1, 94, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006591
+before crop: (1, 70, 512, 512) after crop: (1, 70, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006492
+before crop: (1, 77, 512, 512) after crop: (1, 77, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006579
+before crop: (1, 78, 512, 512) after crop: (1, 78, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006534
+before crop: (1, 82, 512, 512) after crop: (1, 82, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006466
+before crop: (1, 81, 512, 512) after crop: (1, 81, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007710
+before crop: (1, 73, 512, 512) after crop: (1, 73, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007557
+before crop: (1, 75, 512, 512) after crop: (1, 75, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007012
+before crop: (1, 96, 512, 512) after crop: (1, 96, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006831
+before crop: (1, 80, 512, 512) after crop: (1, 80, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006776
+before crop: (1, 69, 512, 512) after crop: (1, 69, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007298
+before crop: (1, 74, 512, 512) after crop: (1, 74, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_006469
+before crop: (1, 70, 512, 512) after crop: (1, 70, 512, 512) spacing: [5.         1.26953101 1.26953101] 
+
+LungL_007616
+before crop: (1, 175, 512, 512) after crop: (1, 175, 512, 512) spacing: [2.5        1.26953101 1.26953101] 
+
+
+
+
+ Task155_LungL
+number of threads:  (8, 8) 
+
+Are we using the nonzero mask for normalizaion? OrderedDict([(0, False)])
+the median shape of the dataset is  [ 77. 512. 512.]
+the max shape in the dataset is  [116. 512. 512.]
+the min shape in the dataset is  [ 46. 512. 512.]
+we don't want feature maps smaller than  4  in the bottleneck
+the transposed median shape of the dataset is  [ 77. 512. 512.]
+generating configuration for 3d_fullres
+generating configuration for 3d_lowres
+{0: {'batch_size': 2, 'num_pool_per_axis': [3, 5, 5], 'patch_size': array([ 48, 192, 192]), 'median_patient_size_in_voxels': array([ 77, 302, 302]), 'current_spacing': array([5.        , 2.15117689, 2.15117689]), 'original_spacing': array([5.        , 1.26953101, 1.26953101]), 'do_dummy_2D_data_aug': True, 'pool_op_kernel_sizes': [[1, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2]], 'conv_kernel_sizes': [[1, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]]}, 1: {'batch_size': 2, 'num_pool_per_axis': [3, 6, 5], 'patch_size': array([ 32, 256, 224]), 'median_patient_size_in_voxels': array([ 77, 512, 512]), 'current_spacing': array([5.        , 1.26953101, 1.26953101]), 'original_spacing': array([5.        , 1.26953101, 1.26953101]), 'do_dummy_2D_data_aug': True, 'pool_op_kernel_sizes': [[1, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2], [1, 2, 1]], 'conv_kernel_sizes': [[1, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]]}}
+transpose forward [0, 1, 2]
+transpose backward [0, 1, 2]
+Initializing to run preprocessing
+npz folder: /home/data/nnunet/nnUNet_raw_data_base/nnUNet_cropped_data/Task155_LungL
+output_folder: /home/data/nnunet/nnUNet_preprocessed/Task155_LungL
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 72, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006533.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 82, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006534.npz
+resampling
+resampling
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 131, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 66, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006535.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 79, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007553.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 75, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007557.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 91, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 91, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007565.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 81, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006578.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 78, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 78, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006579.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 69, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006584.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 69, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006838.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 75, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006844.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 75, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006870.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 98, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 98, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007569.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 79, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007585.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 82, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007594.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 77, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006552.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 59, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 59, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006559.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 97, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 97, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006564.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 72, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006878.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 70, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006890.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 81, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006893.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 77, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007682.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 71, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007683.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 102, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 102, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007694.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 80, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006569.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 67, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 67, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006571.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 80, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006574.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 77, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006589.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 70, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006591.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 79, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006600.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 96, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 96, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007012.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 74, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007298.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 77, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007308.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 68, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 68, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006472.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 72, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006476.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 71, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006477.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 66, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 66, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006755.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 69, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006776.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 64, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 64, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006780.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 86, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 86, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006918.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 67, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 67, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006954.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 80, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006989.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 85, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 85, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007735.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 94, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 94, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007753.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 81, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006466.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 70, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006469.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 72, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006470.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 76, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 76, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006798.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 68, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 68, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006803.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 76, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 76, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006804.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 77, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007311.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 94, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 94, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007500.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 116, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 116, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007552.npz
+resampling
+resampling
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 92, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 46, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_003937.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 83, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 83, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006443.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 70, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006464.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 71, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006896.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 73, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 73, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006904.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 83, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 83, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006915.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 74, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007695.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 73, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 73, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007710.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 87, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 87, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007723.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 77, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006492.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 82, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006500.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 72, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006519.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 80, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006827.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 78, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 78, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006829.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 80, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_006831.npz
+resampling
+resampling
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 175, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 88, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007616.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 75, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007659.npz
+resampling
+resampling
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 2.15117689, 2.15117689]), 'data.shape (data is resampled)': (1, 74, 302, 302)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage0/LungL_007662.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006552.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 59, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 59, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006559.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 97, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 97, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006564.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 69, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006838.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 75, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006844.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 75, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006870.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 79, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007553.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 75, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007557.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 91, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 91, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007565.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 81, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006578.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 78, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 78, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006579.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 69, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006584.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 66, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 66, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006755.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 69, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006776.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 64, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 64, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006780.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 96, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 96, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007012.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 74, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007298.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007308.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 68, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 68, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006472.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006476.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 71, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006477.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006589.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 70, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006591.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 79, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006600.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 86, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 86, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006918.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 67, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 67, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006954.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006989.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 85, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 85, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007735.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 94, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 94, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007753.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 81, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006466.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 70, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006469.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006470.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 76, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 76, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006798.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 68, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 68, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006803.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 76, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 76, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006804.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007311.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 94, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 94, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007500.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 116, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 116, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007552.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006492.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 82, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006500.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006519.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006827.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 78, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 78, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006829.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006831.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007682.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 71, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007683.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 102, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 102, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007694.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006533.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 82, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006534.npz
+resampling
+resampling
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 131, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 66, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006535.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 74, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007695.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 73, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 73, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007710.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 87, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 87, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007723.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006569.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 67, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 67, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006571.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006574.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006878.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 70, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006890.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 81, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006893.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 98, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 98, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007569.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 79, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007585.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 82, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007594.npz
+resampling
+resampling
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 92, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 46, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_003937.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 83, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 83, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006443.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 70, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006464.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 71, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006896.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 73, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 73, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006904.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 83, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 83, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_006915.npz
+resampling
+resampling
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 175, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 88, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007616.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 75, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007659.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 74, 512, 512)} 
+
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_stage1/LungL_007662.npz
+Are we using the nonzero maks for normalizaion? OrderedDict([(0, False)])
+the median shape of the dataset is  [ 77. 512. 512.]
+the max shape in the dataset is  [116. 512. 512.]
+the min shape in the dataset is  [ 46. 512. 512.]
+we don't want feature maps smaller than  4  in the bottleneck
+the transposed median shape of the dataset is  [ 77. 512. 512.]
+[{'batch_size': 12, 'num_pool_per_axis': [7, 7], 'patch_size': array([512, 512]), 'median_patient_size_in_voxels': array([ 77, 512, 512]), 'current_spacing': array([5.        , 1.26953101, 1.26953101]), 'original_spacing': array([5.        , 1.26953101, 1.26953101]), 'pool_op_kernel_sizes': [[2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]], 'conv_kernel_sizes': [[3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3]], 'do_dummy_2D_data_aug': False}]
+Initializing to run preprocessing
+npz folder: /home/data/nnunet/nnUNet_raw_data_base/nnUNet_cropped_data/Task155_LungL
+output_folder: /home/data/nnunet/nnUNet_preprocessed/Task155_LungL
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006492.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 82, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006500.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006519.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 76, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 76, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006798.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 68, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 68, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006803.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 76, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 76, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006804.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007311.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 94, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 94, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007500.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 116, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 116, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007552.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 81, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006466.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 70, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006469.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006470.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 66, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 66, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006755.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 69, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006776.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 64, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 64, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006780.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 79, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007553.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 75, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007557.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 91, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 91, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007565.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 68, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 68, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006472.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006476.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 71, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006477.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006827.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 78, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 78, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006829.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006831.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 98, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 98, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007569.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 79, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007585.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 82, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007594.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 92, 512, 512)} 
+after:  {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 92, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_003937.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 83, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 83, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006443.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 70, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006464.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006878.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 70, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006890.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 81, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006893.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 175, 512, 512)} 
+after:  {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 175, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007616.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 75, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007659.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 74, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007662.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006569.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 67, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 67, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006571.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006574.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006589.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 70, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 70, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006591.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 79, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 79, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006600.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 96, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 96, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007012.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 74, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007298.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007308.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 81, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 81, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006578.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 78, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 78, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006579.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 69, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006584.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 69, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 69, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006838.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 75, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006844.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 75, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 75, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006870.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007682.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 71, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007683.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 102, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 102, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007694.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 77, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 77, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006552.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 59, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 59, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006559.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 97, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 97, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006564.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 86, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 86, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006918.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 67, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 67, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006954.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 80, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 80, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006989.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 85, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 85, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007735.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 94, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 94, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007753.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 72, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 72, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006533.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 82, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 82, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006534.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'spacing_transposed': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 131, 512, 512)} 
+after:  {'spacing': array([2.5       , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 131, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006535.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 71, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 71, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006896.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 73, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 73, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006904.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 83, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 83, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_006915.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 74, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 74, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007695.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 73, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 73, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007710.npz
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.        , 1.26953101, 1.26953101]), 'spacing_transposed': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is transposed)': (1, 87, 512, 512)} 
+after:  {'spacing': array([5.        , 1.26953101, 1.26953101]), 'data.shape (data is resampled)': (1, 87, 512, 512)} 
+
+normalization...
+normalization done
+1 10000
+saving:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1_2D_stage0/LungL_007723.npz

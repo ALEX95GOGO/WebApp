@@ -249,12 +249,12 @@ if __name__ == "__main__":
         s2 = re.split('\n', data2)
         print(s2[0])
             
-    nii_path = r"/home/zhuoli.zhuang/nnUNet_data/nnUNet_raw/nnUNet_raw_data/Task{}_{}/imagesTs/".format(s1[0],s2[0])
-    mask_path = r"/home/zhuoli.zhuang/nnUNet_data/nnUNet_raw/nnUNet_raw_data/Task{}_{}/labelsTs/".format(s1[0],s2[0])
-    nnunet_path = r"/home/zhuoli.zhuang/nnUNet_data/result/Task{}_{}/".format(s1[0],s2[0])
+    nii_path = r"{}/nnUNet_raw_data/Task{}_{}/imagesTs/".format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
+    mask_path = r"{}/nnUNet_raw_data/Task{}_{}/labelsTs/".format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
+    nnunet_path = r"{}/result/Task{}_{}/".format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
     task_name = '{}'
     files = os.listdir(nii_path)
-    output_dir = r"/home/zhuoli.zhuang/nnUNet_data/compare/Task{}_{}/".format(s1[0],s2[0])
+    output_dir = r"{}/compare/Task{}_{}/".format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
     #ctv_path = r"H:/breast_k/cropped_data/test/"
     mkdir(output_dir)
     csv_name = output_dir+'/testdice_single.xls'
