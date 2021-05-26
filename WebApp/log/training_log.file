@@ -1,0 +1,1 @@
+nnUNet_train 2d nnUNetTrainerV2_noDeepSupervision 666 0 --npz

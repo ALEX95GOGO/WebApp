@@ -24,6 +24,7 @@ from tqdm import tqdm
 import getopt
 import sys
 import random
+import time
     
 def maybe_mkdir_p(path):
     isExists=os.path.exists(path)
@@ -79,6 +80,10 @@ if __name__ == "__main__":
         data2 = f.read()
         s2 = re.split('\n', data2)
         print(s2[0])
+    with open('./log/' + args[2], "r") as f:
+        data3 = f.read()
+        s3 = re.split('\n', data3)
+        print(s3[0])
     
     nnUNet_raw_data = os.path.join(os.getenv('nnUNet_raw_data_base'),'nnUNet_raw_data')
     #nnUNet_raw_data = "../../nnUNet_data/nnUNet_raw/nnUNet_raw_data/"
@@ -114,8 +119,10 @@ if __name__ == "__main__":
     k = len(folder_list) // 5  # number of test images
     
     all_patients = subfolders(base, join=False)
+    random.seed(1)
     random.shuffle(all_patients)
     for p in tqdm(all_patients,ncols=50):
+        old_time = time.perf_counter()
         name_p = re.sub("\D", "", p)
         name = "%06.0d" % int(name_p)
         #curr = join(base, "train", p)
@@ -127,6 +134,10 @@ if __name__ == "__main__":
             sitklabel = sitk.ReadImage(label_file)
             if sitkimage.GetSize() != sitklabel.GetSize():
                 all_patients.remove(p)
+        time_per_loop = time.perf_counter() - old_time
+        estimate_time = time_per_loop * len(all_patients)
+        #print('estimate time')
+        #print(estimate_time)
     print ('Assert image and label size to be the same')
 
     train_patients = all_patients[k:-1]

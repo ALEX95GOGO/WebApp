@@ -1,0 +1,657 @@
+Archive:  ../upload/eval_chest.zip
+   creating: ../data/dcm_base/Eval3/eval_chest/
+   creating: ../data/dcm_base/Eval3/eval_chest/014218/
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732689.923.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732689.924.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732689.925.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732689.926.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732690.927.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732690.928.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732690.929.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732691.930.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732691.931.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732691.932.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732691.933.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732692.934.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732692.935.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732692.936.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732692.937.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732692.938.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732693.939.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732693.940.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732693.941.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732693.942.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732694.943.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732694.944.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732694.945.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732694.946.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732695.947.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732695.948.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732695.949.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732695.950.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732696.951.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732696.952.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732696.953.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732696.954.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732697.955.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732697.956.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732697.957.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732697.958.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732698.959.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732698.960.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732698.961.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732698.962.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732699.963.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732699.964.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732699.965.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732699.966.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732700.967.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732700.968.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732700.969.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732700.970.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732701.971.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732701.972.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732701.973.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732701.974.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732702.975.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732702.976.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732702.977.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732703.978.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732703.979.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732703.980.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/CT.1.2.840.113704.1.111.1620.1536732703.981.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014218/RS.1.2.246.352.71.4.927781572173.130239.20180919084835.dcm  
+   creating: ../data/dcm_base/Eval3/eval_chest/014510/
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493250.639.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493251.640.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493251.641.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493251.642.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493251.643.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493251.644.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493251.645.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493253.646.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493253.647.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493253.648.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493253.649.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493253.650.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493253.651.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493253.652.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493253.653.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493254.654.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493254.655.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493254.656.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493254.657.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493254.658.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493254.659.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493254.660.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493254.661.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493256.662.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493256.663.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493256.664.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493256.665.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493256.666.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493256.667.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493256.668.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493256.669.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493257.670.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493257.671.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493257.672.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493257.673.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493257.674.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493257.675.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493257.676.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493257.677.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.678.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.679.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.680.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.681.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.682.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.683.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.684.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.685.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.686.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.687.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.688.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.689.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.690.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.691.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/CT.1.2.840.113704.1.111.5400.1537493259.692.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014510/RS.1.2.246.352.205.5455202417443555947.13703038684183119002.dcm  
+   creating: ../data/dcm_base/Eval3/eval_chest/014529/
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491369.350.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491370.351.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491370.352.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491370.353.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491370.354.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491370.355.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491370.356.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491372.357.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491372.358.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491372.359.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491372.360.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491372.361.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491372.362.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491372.363.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491372.364.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491373.365.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491373.366.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491373.367.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491373.368.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491373.369.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491373.370.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491373.371.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491373.372.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491375.373.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491375.374.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491375.375.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491375.376.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491375.377.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491375.378.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491375.379.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491375.380.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491376.381.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491376.382.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491376.383.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491376.384.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491376.385.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491376.386.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491376.387.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491376.388.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491377.389.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491377.390.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491377.391.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491377.392.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491377.393.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491377.394.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491377.395.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491377.396.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491378.397.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491378.398.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491378.399.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491378.400.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491378.401.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491378.402.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/CT.1.2.840.113704.1.111.5400.1537491378.403.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014529/RS.1.2.246.352.71.4.927781572173.131758.20181017160925.dcm  
+   creating: ../data/dcm_base/Eval3/eval_chest/014642/
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014086.3985.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014086.3986.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014086.3987.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014087.3988.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014087.3989.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014087.3990.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014087.3991.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014089.3992.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014089.3993.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014089.3994.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014089.3995.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014089.3996.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014089.3997.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014089.3998.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014089.3999.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014091.4000.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014091.4001.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014091.4002.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014091.4003.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014091.4004.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014091.4005.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014091.4006.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014091.4007.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014093.4008.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014093.4009.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014093.4010.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014093.4011.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014093.4012.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014093.4013.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014093.4014.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014093.4015.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014095.4016.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014095.4017.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014095.4018.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014095.4019.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014095.4020.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014095.4021.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014095.4022.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014095.4023.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014097.4024.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014097.4025.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014097.4026.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014097.4027.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014097.4028.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014097.4029.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014097.4030.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014097.4031.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014099.4032.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014099.4033.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014099.4034.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014099.4035.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014099.4036.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014099.4037.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014099.4038.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014099.4039.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014100.4040.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014100.4041.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014100.4042.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014100.4043.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014100.4044.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/CT.1.2.840.113704.1.111.4688.1538014100.4045.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014642/RS.1.2.246.352.205.5243535343896233972.4886557248369949611.dcm  
+   creating: ../data/dcm_base/Eval3/eval_chest/014668/
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135864.291.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135865.292.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135865.293.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135865.294.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135866.295.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135866.296.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135866.297.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135866.298.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135866.299.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135867.300.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135867.301.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135867.302.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135868.303.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135868.304.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135868.305.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135868.306.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135869.307.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135869.308.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135869.309.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135869.310.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135869.311.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135870.312.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135870.313.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135870.314.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135870.315.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135871.316.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135871.317.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135871.318.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135872.319.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135872.320.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135872.321.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135872.322.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135873.323.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135873.324.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135873.325.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135873.326.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135873.327.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135874.328.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135874.329.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135874.330.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135875.331.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135875.332.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135875.333.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135875.334.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135876.335.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135876.336.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135876.337.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135876.338.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135877.339.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135877.340.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135877.341.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135877.342.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135878.343.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135878.344.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135878.345.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135878.346.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135879.347.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135879.348.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135879.349.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135880.350.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/CT.1.2.840.113704.1.111.2096.1539135880.351.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014668/RS.1.2.246.352.205.5269734927597742698.12208745707628880016.dcm  
+   creating: ../data/dcm_base/Eval3/eval_chest/014719/
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184944.437.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184945.438.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184945.439.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184946.440.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184946.441.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184946.442.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184946.443.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184948.444.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184948.445.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184948.446.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184948.447.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184948.448.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184948.449.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184948.450.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184948.451.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184950.452.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184950.453.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184950.454.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184950.455.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184950.456.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184950.457.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184950.458.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184950.459.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184952.460.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184952.461.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184952.462.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184952.463.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184952.464.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184952.465.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184952.466.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184952.467.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184954.468.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184954.469.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184954.470.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184954.471.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184954.472.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184954.473.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184954.474.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184954.475.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184956.476.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184956.477.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184956.478.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184956.479.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184956.480.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184956.481.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184956.482.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184956.483.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.484.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.485.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.486.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.487.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.488.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.489.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.490.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.491.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/CT.1.2.840.113704.1.111.5116.1538184958.492.dcm  
+  inflating: ../data/dcm_base/Eval3/eval_chest/014719/RS.1.2.246.352.205.4749490352129914780.4977751557544616843.dcm  
+mv: cannot move '../data/dcm_base/Eval3/eval_chest/014218' to '../data/dcm_base/Eval3/014218': Directory not empty
+mv: cannot move '../data/dcm_base/Eval3/eval_chest/014510' to '../data/dcm_base/Eval3/014510': Directory not empty
+mv: cannot move '../data/dcm_base/Eval3/eval_chest/014529' to '../data/dcm_base/Eval3/014529': Directory not empty
+mv: cannot move '../data/dcm_base/Eval3/eval_chest/014642' to '../data/dcm_base/Eval3/014642': Directory not empty
+mv: cannot move '../data/dcm_base/Eval3/eval_chest/014668' to '../data/dcm_base/Eval3/014668': Directory not empty
+mv: cannot move '../data/dcm_base/Eval3/eval_chest/014719' to '../data/dcm_base/Eval3/014719': Directory not empty
+3
+Loading 56 files of dicom series 1.2.840.113704.1.111.7128.1538184931.8
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 54 files of dicom series 1.2.840.113704.1.111.5544.1537491352.9
+Loading 54 files of dicom series 1.2.840.113704.1.111.6224.1537493239.9
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 59 files of dicom series 1.2.840.113704.1.111.4536.1536732677.7
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 61 files of dicom series 1.2.840.113704.1.111.2188.1539135847.7
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 61 files of dicom series 1.2.840.113704.1.111.6936.1538014073.9
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+../data/dcm_base/Eval3/014510
+../data/dcm_base/Eval3/014529
+../data/dcm_base/Eval3/014642
+../data/dcm_base/Eval3/014218
+../data/dcm_base/Eval3/014719
+../data/dcm_base/Eval3/014668
+generate image processes finished
+Loading 54 files of dicom series 1.2.840.113704.1.111.6224.1537493239.9
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 59 files of dicom series 1.2.840.113704.1.111.4536.1536732677.7
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 54 files of dicom series 1.2.840.113704.1.111.5544.1537491352.9
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 56 files of dicom series 1.2.840.113704.1.111.7128.1538184931.8
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 61 files of dicom series 1.2.840.113704.1.111.2188.1539135847.7
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Loading 61 files of dicom series 1.2.840.113704.1.111.6936.1538014073.9
+Input Pixel Type: PT_SHORT, Output Pixel Type: PT_SHORT
+Processing ROI thyroid
+ROI thyroid is empty
+Processing ROI Ribs
+ROI Ribs is empty
+Processing ROI PTV_SCN
+ROI PTV_SCN is empty
+Processing ROI PTV_IMN
+ROI PTV_IMN is empty
+Processing ROI PTV_B_EVA
+Processing ROI PTV_B
+Processing ROI PTV_ALN
+Processing ROI Lung_R
+Processing ROI Lung_L
+Processing ROI Humeral head
+Processing ROI Heart
+Processing ROI Esophagus
+ROI Esophagus is empty
+Processing ROI CTV_SCN
+ROI CTV_SCN is empty
+Processing ROI CTV_IMN
+ROI CTV_IMN is empty
+Processing ROI CTV_ALN
+Processing ROI BREAST_CON
+Processing ROI BODY
+Processing ROI CTV_b
+Processing ROI TB
+ROI TB is empty
+Processing ROI CTV_TB
+ROI CTV_TB is empty
+Processing ROI PTV_TB
+ROI PTV_TB is empty
+Processing ROI PTV_TB_EVA
+ROI PTV_TB_EVA is empty
+PTV_B_EVA
+PTV_B
+PTV_ALN
+Lung_R
+Lung_L
+Humeral head
+Heart
+CTV_ALN
+BREAST_CON
+BODY
+CTV_b
+Processing ROI BODY
+Processing ROI BREAST_CON
+Processing ROI CTV_ALN
+ROI CTV_ALN is empty
+Processing ROI CTV_b
+Processing ROI CTV_IMN
+ROI CTV_IMN is empty
+Processing ROI CTV_SCN
+ROI CTV_SCN is empty
+Processing ROI CTV_TB
+Processing ROI Esophagus
+ROI Esophagus is empty
+Processing ROI Heart
+Processing ROI Humeral head
+ROI Humeral head is empty
+Processing ROI Lung_L
+Processing ROI Lung_R
+Processing ROI PTV_ALN
+ROI PTV_ALN is empty
+Processing ROI PTV_B
+Processing ROI PTV_B_EVA
+Processing ROI PTV_IMN
+ROI PTV_IMN is empty
+Processing ROI PTV_SCN
+ROI PTV_SCN is empty
+Processing ROI PTV_TB
+Processing ROI PTV_TB_EVA
+ROI PTV_TB_EVA is empty
+Processing ROI Ribs
+ROI Ribs is empty
+Processing ROI TB
+Processing ROI thyroid
+ROI thyroid is empty
+BODY
+BREAST_CON
+CTV_b
+CTV_TB
+Heart
+Lung_L
+Lung_R
+PTV_B
+PTV_B_EVA
+PTV_TB
+TB
+Processing ROI BODY
+ROI BODY is empty
+Processing ROI BREAST_CON
+Processing ROI CTV_ALN
+ROI CTV_ALN is empty
+Processing ROI CTV_B
+Processing ROI CTV_IMN
+ROI CTV_IMN is empty
+Processing ROI CTV_SCN
+ROI CTV_SCN is empty
+Processing ROI CTV_TB
+Processing ROI Esophagus
+ROI Esophagus is empty
+Processing ROI HEART
+Processing ROI Humeral head
+ROI Humeral head is empty
+Processing ROI LUNG_L
+Processing ROI LUNG_R
+Processing ROI PTV_ALN
+ROI PTV_ALN is empty
+Processing ROI PTV_B
+Processing ROI PTV_B_EVA
+Processing ROI PTV_IMN
+ROI PTV_IMN is empty
+Processing ROI PTV_SCN
+ROI PTV_SCN is empty
+Processing ROI PTV_TB
+Processing ROI PTV_TB_EVA
+Processing ROI Ribs
+ROI Ribs is empty
+Processing ROI TB
+Processing ROI thyroid
+ROI thyroid is empty
+Processing ROI BODY1
+BREAST_CON
+CTV_B
+CTV_TB
+HEART
+LUNG_L
+LUNG_R
+PTV_B
+PTV_B_EVA
+PTV_TB
+PTV_TB_EVA
+TB
+BODY1
+Processing ROI BODY
+Processing ROI BREAST_CON
+Processing ROI Heart
+Processing ROI Lung_L
+Processing ROI Lung_R
+Processing ROI thyroid
+ROI thyroid is empty
+Processing ROI CTV_B
+Processing ROI PTV_TB_EVA
+ROI PTV_TB_EVA is empty
+Processing ROI PTV_B
+Processing ROI PTV_B_EVA
+BODY
+BREAST_CON
+Heart
+Lung_L
+Lung_R
+CTV_B
+PTV_B
+PTV_B_EVA
+Processing ROI thyroid
+ROI thyroid is empty
+Processing ROI TB
+Processing ROI Ribs
+ROI Ribs is empty
+Processing ROI PTV_TB_EVA
+ROI PTV_TB_EVA is empty
+Processing ROI PTV_TB
+Processing ROI PTV_SCN
+ROI PTV_SCN is empty
+Processing ROI PTV_IMN
+ROI PTV_IMN is empty
+Processing ROI PTV_B_EVA
+Processing ROI PTV_B
+Processing ROI PTV_ALN
+ROI PTV_ALN is empty
+Processing ROI Lung_R
+Processing ROI Lung_L
+Processing ROI Humeral head
+ROI Humeral head is empty
+Processing ROI Heart
+Processing ROI Esophagus
+ROI Esophagus is empty
+Processing ROI CTV_TB
+ROI CTV_TB is empty
+Processing ROI CTV_SCN
+ROI CTV_SCN is empty
+Processing ROI CTV_IMN
+ROI CTV_IMN is empty
+Processing ROI CTV_b
+Processing ROI CTV_ALN
+ROI CTV_ALN is empty
+Processing ROI BREAST_CON
+Processing ROI BODY
+Processing ROI r1
+Processing ROI nt
+TB
+PTV_TB
+PTV_B_EVA
+PTV_B
+Lung_R
+Lung_L
+Heart
+CTV_b
+BREAST_CON
+BODY
+r1
+nt
+Processing ROI BODY
+Processing ROI BREAST_CON
+Processing ROI CTV_b
+Processing ROI Heart
+Processing ROI Humeral head
+ROI Humeral head is empty
+Processing ROI Lung_L
+Processing ROI Lung_R
+Processing ROI PTV_b
+Processing ROI PTV_b_EVA
+Processing ROI thyroid
+ROI thyroid is empty
+Processing ROI r1
+Processing ROI r2
+Processing ROI CouchSurface
+Processing ROI CouchInterior
+Processing ROI LeftOuterRail
+Processing ROI RightOuterRail
+Processing ROI LeftInnerRail
+Processing ROI RightInnerRail
+Processing ROI R47
+BODY
+BREAST_CON
+CTV_b
+Heart
+Lung_L
+Lung_R
+PTV_b
+PTV_b_EVA
+r1
+r2
+CouchSurface
+CouchInterior
+LeftOuterRail
+RightOuterRail
+LeftInnerRail
+RightInnerRail
+R47
+generate mask processes finished
+**********************************************
+Humeralhead.nii.gz
+  0%|                       | 0/6 [00:00<?, ?it/s] 17%|██▌            | 1/6 [00:00<00:01,  3.47it/s] 33%|█████          | 2/6 [00:00<00:01,  3.65it/s] 50%|███████▌       | 3/6 [00:00<00:00,  3.85it/s] 83%|████████████▌  | 5/6 [00:01<00:00,  4.48it/s]100%|███████████████| 6/6 [00:01<00:00,  4.44it/s]100%|███████████████| 6/6 [00:01<00:00,  4.76it/s]
+  0%|                       | 0/6 [00:00<?, ?it/s] 17%|██▌            | 1/6 [00:00<00:01,  2.86it/s] 33%|█████          | 2/6 [00:00<00:01,  3.48it/s] 83%|████████████▌  | 5/6 [00:00<00:00,  4.40it/s]100%|███████████████| 6/6 [00:00<00:00,  7.05it/s]
+
+Please cite the following paper when using nnUNet:
+Fabian Isensee, Paul F. Jäger, Simon A. A. Kohl, Jens Petersen, Klaus H. Maier-Hein "Automated Design of Deep Learning Methods for Biomedical Image Segmentation" arXiv preprint arXiv:1904.08128 (2020).
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+id:
+other param:evaluation_id.file,eval_label.file,evaluation_id.file,taskid.file
+155
+3
+LungL
+[1, 'Eval2', 'Eval3', 'Task124', 'Task333', 'Task155', 'Task334', 'Task666', 'Task123', 'Task122', 'Task120', 'Task121', 'Task111', 'Task113', 'Task115', 'Task125', 'Task112', 'Task131', 'Task555']
+Lung_L
+3
+Assert image and label size to be the same
+Test set copy done

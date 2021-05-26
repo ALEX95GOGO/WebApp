@@ -18,7 +18,7 @@ def showImageInHTML(imageTypes,imagedir,savedir):
                 images=[item[item.rfind('/'):] for item in images]
                 images.sort(key=lambda x:int(x[1:-4]))
         
-                images=['/prediction/' + folder_list[i] + item for item in images]
+                images=['/prediction_eval/' + folder_list[i] + item for item in images]
                 f.write('<h1>Image ID is :'+folder_list[i]+'</h1>')
                 for image in images:
                     f.write("<img src='%s'>\n"%image)
@@ -45,13 +45,13 @@ def cur_file_dir():
 if __name__ == '__main__':
     #savedir=cur_file_dir()
     
-    with open('./log/taskid.file', "r") as f:
+    with open('./log/evaluation_id.file', "r") as f:
         data = f.read()
         s1 = re.split('\n', data)
     with open('./log/train_label.file', "r") as f:
         data = f.read()
         s2 = re.split('\n', data)
         
-    imagedir=r'{}/compare/Task{}_{}/'.format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
+    imagedir=r'{}/compare/Eval{}_{}/'.format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
     savedir=r'./templates'
     showImageInHTML(('bmp','png','gif'),imagedir, savedir)

@@ -4,7 +4,7 @@ Fabian Isensee, Paul F. Jäger, Simon A. A. Kohl, Jens Petersen, Klaus H. Maier-
 If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
 
 ###############################################
-I am running the following nnUNet: 3d_fullres
+I am running the following nnUNet: 2d
 My trainer class is:  <class 'nnunet.training.network_training.nnUNet_variants.architectural_variants.nnUNetTrainerV2_noDeepSupervision.nnUNetTrainerV2_noDeepSupervision'>
 For that I will be using the following configuration:
 num_classes:  1
@@ -17,38 +17,34 @@ normalization_schemes OrderedDict([(0, 'CT')])
 stages...
 
 stage:  0
-{'batch_size': 2, 'num_pool_per_axis': [3, 5, 5], 'patch_size': array([ 48, 192, 192]), 'median_patient_size_in_voxels': array([ 77, 302, 302]), 'current_spacing': array([5.        , 2.15117689, 2.15117689]), 'original_spacing': array([5.        , 1.26953101, 1.26953101]), 'do_dummy_2D_data_aug': True, 'pool_op_kernel_sizes': [[1, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2]], 'conv_kernel_sizes': [[1, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]]}
+{'batch_size': 12, 'num_pool_per_axis': [7, 7], 'patch_size': array([512, 512]), 'median_patient_size_in_voxels': array([ 61, 512, 512]), 'current_spacing': array([5.       , 0.9765625, 0.9765625]), 'original_spacing': array([5.       , 0.9765625, 0.9765625]), 'pool_op_kernel_sizes': [[2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]], 'conv_kernel_sizes': [[3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3]], 'do_dummy_2D_data_aug': False}
 
-stage:  1
-{'batch_size': 2, 'num_pool_per_axis': [3, 6, 5], 'patch_size': array([ 32, 256, 224]), 'median_patient_size_in_voxels': array([ 77, 512, 512]), 'current_spacing': array([5.        , 1.26953101, 1.26953101]), 'original_spacing': array([5.        , 1.26953101, 1.26953101]), 'do_dummy_2D_data_aug': True, 'pool_op_kernel_sizes': [[1, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2], [1, 2, 1]], 'conv_kernel_sizes': [[1, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]]}
-
-I am using stage 1 from these plans
+I am using stage 0 from these plans
 I am using batch dice + CE loss
 
-I am using data from this folder:  /home/data/nnunet/nnUNet_preprocessed/Task155_LungL/nnUNetData_plans_v2.1
+I am using data from this folder:  /home/data/nnunet/nnUNet_preprocessed/Task666_External/nnUNetData_plans_v2.1_2D
 ###############################################
-2021-04-28 09:48:13.075934: Using dummy2d data augmentation
 loading dataset
 loading all case properties
+2021-05-20 07:44:05.194578: Creating new split...
 unpacking dataset
 done
-2021-04-28 09:48:18.050630: loading checkpoint /home/data/nnunet/nnUNet_trained_models/nnUNet/3d_fullres/Task155_LungL/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_latest.model train= True
-2021-04-28 09:48:20.899090: lr: 0.006314
+2021-05-20 07:44:58.335166: lr: 0.01
 using pin_memory on device 0
 using pin_memory on device 0
-2021-04-28 09:48:29.740671: Unable to plot network architecture:
-2021-04-28 09:48:29.741102: No module named 'hiddenlayer'
-2021-04-28 09:48:29.741237: 
+2021-05-20 07:45:00.288547: Unable to plot network architecture:
+2021-05-20 07:45:00.289777: No module named 'hiddenlayer'
+2021-05-20 07:45:00.309603: 
 printing the network instead:
 
-2021-04-28 09:48:29.741323: Generic_UNet(
+2021-05-20 07:45:00.330111: Generic_UNet(
   (conv_blocks_localization): ModuleList(
     (0): Sequential(
       (0): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(640, 320, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(960, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -56,8 +52,8 @@ printing the network instead:
       (1): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(320, 320, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -67,8 +63,8 @@ printing the network instead:
       (0): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(640, 320, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(960, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -76,8 +72,8 @@ printing the network instead:
       (1): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(320, 320, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -87,8 +83,8 @@ printing the network instead:
       (0): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(512, 256, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(960, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -96,8 +92,8 @@ printing the network instead:
       (1): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(256, 256, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -107,8 +103,8 @@ printing the network instead:
       (0): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(256, 128, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(512, 256, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -116,8 +112,8 @@ printing the network instead:
       (1): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(128, 128, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(256, 256, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -127,8 +123,8 @@ printing the network instead:
       (0): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(128, 64, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(256, 128, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -136,8 +132,8 @@ printing the network instead:
       (1): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(64, 64, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(128, 128, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -147,8 +143,8 @@ printing the network instead:
       (0): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(64, 32, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(128, 64, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -156,8 +152,28 @@ printing the network instead:
       (1): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(32, 32, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(64, 64, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+    )
+    (6): Sequential(
+      (0): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(64, 32, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+          )
+        )
+      )
+      (1): StackedConvLayers(
+        (blocks): Sequential(
+          (0): ConvDropoutNormNonlin(
+            (conv): Conv2d(32, 32, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -168,13 +184,13 @@ printing the network instead:
     (0): StackedConvLayers(
       (blocks): Sequential(
         (0): ConvDropoutNormNonlin(
-          (conv): Conv3d(1, 32, kernel_size=[1, 3, 3], stride=(1, 1, 1), padding=[0, 1, 1])
-          (instnorm): InstanceNorm3d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(1, 32, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+          (instnorm): InstanceNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
         (1): ConvDropoutNormNonlin(
-          (conv): Conv3d(32, 32, kernel_size=[1, 3, 3], stride=(1, 1, 1), padding=[0, 1, 1])
-          (instnorm): InstanceNorm3d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(32, 32, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+          (instnorm): InstanceNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
       )
@@ -182,13 +198,13 @@ printing the network instead:
     (1): StackedConvLayers(
       (blocks): Sequential(
         (0): ConvDropoutNormNonlin(
-          (conv): Conv3d(32, 64, kernel_size=[3, 3, 3], stride=[1, 2, 2], padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(32, 64, kernel_size=[3, 3], stride=[2, 2], padding=[1, 1])
+          (instnorm): InstanceNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
         (1): ConvDropoutNormNonlin(
-          (conv): Conv3d(64, 64, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(64, 64, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+          (instnorm): InstanceNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
       )
@@ -196,13 +212,13 @@ printing the network instead:
     (2): StackedConvLayers(
       (blocks): Sequential(
         (0): ConvDropoutNormNonlin(
-          (conv): Conv3d(64, 128, kernel_size=[3, 3, 3], stride=[2, 2, 2], padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(64, 128, kernel_size=[3, 3], stride=[2, 2], padding=[1, 1])
+          (instnorm): InstanceNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
         (1): ConvDropoutNormNonlin(
-          (conv): Conv3d(128, 128, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(128, 128, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+          (instnorm): InstanceNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
       )
@@ -210,13 +226,13 @@ printing the network instead:
     (3): StackedConvLayers(
       (blocks): Sequential(
         (0): ConvDropoutNormNonlin(
-          (conv): Conv3d(128, 256, kernel_size=[3, 3, 3], stride=[2, 2, 2], padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(128, 256, kernel_size=[3, 3], stride=[2, 2], padding=[1, 1])
+          (instnorm): InstanceNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
         (1): ConvDropoutNormNonlin(
-          (conv): Conv3d(256, 256, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(256, 256, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+          (instnorm): InstanceNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
       )
@@ -224,13 +240,13 @@ printing the network instead:
     (4): StackedConvLayers(
       (blocks): Sequential(
         (0): ConvDropoutNormNonlin(
-          (conv): Conv3d(256, 320, kernel_size=[3, 3, 3], stride=[2, 2, 2], padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(256, 480, kernel_size=[3, 3], stride=[2, 2], padding=[1, 1])
+          (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
         (1): ConvDropoutNormNonlin(
-          (conv): Conv3d(320, 320, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+          (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
       )
@@ -238,23 +254,37 @@ printing the network instead:
     (5): StackedConvLayers(
       (blocks): Sequential(
         (0): ConvDropoutNormNonlin(
-          (conv): Conv3d(320, 320, kernel_size=[3, 3, 3], stride=[1, 2, 2], padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=[2, 2], padding=[1, 1])
+          (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
         (1): ConvDropoutNormNonlin(
-          (conv): Conv3d(320, 320, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-          (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+          (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
           (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
         )
       )
     )
-    (6): Sequential(
+    (6): StackedConvLayers(
+      (blocks): Sequential(
+        (0): ConvDropoutNormNonlin(
+          (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=[2, 2], padding=[1, 1])
+          (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+        (1): ConvDropoutNormNonlin(
+          (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+          (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
+        )
+      )
+    )
+    (7): Sequential(
       (0): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(320, 320, kernel_size=[3, 3, 3], stride=[1, 2, 1], padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=[2, 2], padding=[1, 1])
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -262,8 +292,8 @@ printing the network instead:
       (1): StackedConvLayers(
         (blocks): Sequential(
           (0): ConvDropoutNormNonlin(
-            (conv): Conv3d(320, 320, kernel_size=[3, 3, 3], stride=(1, 1, 1), padding=[1, 1, 1])
-            (instnorm): InstanceNorm3d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+            (conv): Conv2d(480, 480, kernel_size=[3, 3], stride=(1, 1), padding=[1, 1])
+            (instnorm): InstanceNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
             (lrelu): LeakyReLU(negative_slope=0.01, inplace=True)
           )
         )
@@ -272,19 +302,152 @@ printing the network instead:
   )
   (td): ModuleList()
   (tu): ModuleList(
-    (0): ConvTranspose3d(320, 320, kernel_size=[1, 2, 1], stride=[1, 2, 1], bias=False)
-    (1): ConvTranspose3d(320, 320, kernel_size=[1, 2, 2], stride=[1, 2, 2], bias=False)
-    (2): ConvTranspose3d(320, 256, kernel_size=[2, 2, 2], stride=[2, 2, 2], bias=False)
-    (3): ConvTranspose3d(256, 128, kernel_size=[2, 2, 2], stride=[2, 2, 2], bias=False)
-    (4): ConvTranspose3d(128, 64, kernel_size=[2, 2, 2], stride=[2, 2, 2], bias=False)
-    (5): ConvTranspose3d(64, 32, kernel_size=[1, 2, 2], stride=[1, 2, 2], bias=False)
+    (0): ConvTranspose2d(480, 480, kernel_size=[2, 2], stride=[2, 2], bias=False)
+    (1): ConvTranspose2d(480, 480, kernel_size=[2, 2], stride=[2, 2], bias=False)
+    (2): ConvTranspose2d(480, 480, kernel_size=[2, 2], stride=[2, 2], bias=False)
+    (3): ConvTranspose2d(480, 256, kernel_size=[2, 2], stride=[2, 2], bias=False)
+    (4): ConvTranspose2d(256, 128, kernel_size=[2, 2], stride=[2, 2], bias=False)
+    (5): ConvTranspose2d(128, 64, kernel_size=[2, 2], stride=[2, 2], bias=False)
+    (6): ConvTranspose2d(64, 32, kernel_size=[2, 2], stride=[2, 2], bias=False)
   )
   (seg_outputs): ModuleList(
-    (0): Conv3d(320, 2, kernel_size=(1, 1, 1), stride=(1, 1, 1), bias=False)
-    (1): Conv3d(320, 2, kernel_size=(1, 1, 1), stride=(1, 1, 1), bias=False)
-    (2): Conv3d(256, 2, kernel_size=(1, 1, 1), stride=(1, 1, 1), bias=False)
-    (3): Conv3d(128, 2, kernel_size=(1, 1, 1), stride=(1, 1, 1), bias=False)
-    (4): Conv3d(64, 2, kernel_size=(1, 1, 1), stride=(1, 1, 1), bias=False)
-    (5): Conv3d(32, 2, kernel_size=(1, 1, 1), stride=(1, 1, 1), bias=False)
+    (0): Conv2d(480, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (1): Conv2d(480, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (2): Conv2d(480, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (3): Conv2d(256, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (4): Conv2d(128, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (5): Conv2d(64, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (6): Conv2d(32, 2, kernel_size=(1, 1), stride=(1, 1), bias=False)
   )
 )
+2021-05-20 07:45:00.358516: 
+
+2021-05-20 07:45:00.391515: 
+epoch:  0
+2021-05-20 07:46:38.794861: train loss : -0.8151
+2021-05-20 07:46:44.766414: validation loss: -0.9369
+2021-05-20 07:46:44.772159: Average global foreground Dice: [0.9789739280344106]
+2021-05-20 07:46:44.806218: (interpret this as an estimate for the Dice of the different classes. This is not exact.)
+2021-05-20 07:46:45.452851: lr: 0.008181
+2021-05-20 07:46:45.453995: This epoch took 105.036942 s
+
+2021-05-20 07:46:45.476552: 
+epoch:  1
+2021-05-20 07:48:19.205728: train loss : -0.9277
+2021-05-20 07:48:25.164110: validation loss: -0.9505
+2021-05-20 07:48:25.168393: Average global foreground Dice: [0.9826984717785064]
+2021-05-20 07:48:25.199325: (interpret this as an estimate for the Dice of the different classes. This is not exact.)
+2021-05-20 07:48:25.647605: lr: 0.006314
+2021-05-20 07:48:25.692078: saving checkpoint...
+2021-05-20 07:48:26.213945: done, saving took 0.57 seconds
+2021-05-20 07:48:26.220241: This epoch took 100.701857 s
+
+2021-05-20 07:48:26.246967: 
+epoch:  2
+2021-05-20 07:50:00.312675: train loss : -0.9404
+2021-05-20 07:50:06.310739: validation loss: -0.9426
+2021-05-20 07:50:06.313887: Average global foreground Dice: [0.9788014654238022]
+2021-05-20 07:50:06.341815: (interpret this as an estimate for the Dice of the different classes. This is not exact.)
+2021-05-20 07:50:06.788221: lr: 0.004384
+2021-05-20 07:50:06.789850: This epoch took 100.513677 s
+
+2021-05-20 07:50:06.815987: 
+epoch:  3
+2021-05-20 07:51:41.420086: train loss : -0.9415
+2021-05-20 07:51:47.408327: validation loss: -0.9534
+2021-05-20 07:51:47.412630: Average global foreground Dice: [0.983445427560964]
+2021-05-20 07:51:47.437797: (interpret this as an estimate for the Dice of the different classes. This is not exact.)
+2021-05-20 07:51:47.874979: lr: 0.002349
+2021-05-20 07:51:47.910600: saving checkpoint...
+2021-05-20 07:51:51.062930: done, saving took 3.19 seconds
+2021-05-20 07:51:51.071768: This epoch took 104.227991 s
+
+2021-05-20 07:51:51.099572: 
+epoch:  4
+2021-05-20 07:53:25.868086: train loss : -0.9459
+2021-05-20 07:53:31.900703: validation loss: -0.9518
+2021-05-20 07:53:31.904073: Average global foreground Dice: [0.9813785445428658]
+2021-05-20 07:53:31.936023: (interpret this as an estimate for the Dice of the different classes. This is not exact.)
+2021-05-20 07:53:32.393568: lr: 0.0
+2021-05-20 07:53:32.428800: saving checkpoint...
+2021-05-20 07:53:35.405606: done, saving took 3.01 seconds
+2021-05-20 07:53:35.532925: This epoch took 104.408221 s
+
+2021-05-20 07:53:35.598719: saving checkpoint...
+2021-05-20 07:53:36.153062: done, saving took 0.60 seconds
+External_033450 (2, 61, 512, 512)
+debug: mirroring True mirror_axes (0, 1)
+External_033681 (2, 67, 512, 512)
+debug: mirroring True mirror_axes (0, 1)
+External_035341 (2, 60, 512, 512)
+debug: mirroring True mirror_axes (0, 1)
+External_036343 (2, 65, 512, 512)
+debug: mirroring True mirror_axes (0, 1)
+External_037559 (2, 59, 587, 587)
+debug: mirroring True mirror_axes (0, 1)
+External_037569 (2, 59, 547, 547)
+debug: mirroring True mirror_axes (0, 1)
+External_037574 (2, 57, 556, 556)
+debug: mirroring True mirror_axes (0, 1)
+External_037826 (2, 57, 577, 577)
+debug: mirroring True mirror_axes (0, 1)
+External_037828 (2, 61, 542, 542)
+debug: mirroring True mirror_axes (0, 1)
+External_037987 (2, 64, 541, 541)
+debug: mirroring True mirror_axes (0, 1)
+External_038393 (2, 61, 512, 512)
+debug: mirroring True mirror_axes (0, 1)
+External_038565 (2, 66, 570, 570)
+debug: mirroring True mirror_axes (0, 1)
+External_038594 (2, 62, 569, 569)
+debug: mirroring True mirror_axes (0, 1)
+2021-05-20 07:56:46.781901: finished prediction
+2021-05-20 07:56:46.783208: evaluation of raw predictions
+2021-05-20 07:56:50.032354: determining postprocessing
+Foreground vs background
+before: 0.979920443280705
+after:  0.9799360852167497
+Removing all but the largest foreground region improved results!
+for_which_classes [1]
+min_valid_object_sizes None
+Only one class present, no need to do each class separately as this is covered in fg vs bg
+done
+for which classes:
+[[1]]
+min_object_sizes
+None
+done
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling

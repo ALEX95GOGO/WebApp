@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>beta(CRI-SZ)</title>
+</head>
+{% load static %}
+{{name}}<img src="{% static "images/logo.png" %}" alt="ui-logo">
+
+<body>
+    <h1>Evaluation</h1>
+    
+    <form action="/upload_page_eval/" form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="submit" value="import">
+    </form>
+    
+    <form action="/check_existing_id_eval/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="check existing id">
+    </form>
+    <p>Existing IDs are:{{ ids }} </p>
+    
+
+    <p>Input task ID here (example: 111)</p>
+    <form action="/input_id_eval/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="task ID:">
+        <input type="text" name="q0">
+    </form>
+    
+    <p>Mode: <p>
+
+    <form action="/mode_eval/2d/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="2d">
+    </form>
+    
+    <form action="/mode_eval/3d_fullres/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="3d">
+    </form>
+    
+    <p>Task ID is: {{ id }} </p>  
+    <p>Label choosen is: {{ label }} </p>
+    <p>Mode choosen is: {{ mode }} </p>
+    
+    <form action="/prepare_data_eval/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="prepare data">
+    </form>
+    <p> {{ prepare_status }} </p>
+    
+    <form action="/predict_eval/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="evaluation">
+    </form>
+    
+    <form action="/check_result_eval/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="check result">
+    </form>
+    
+
+    <form action="/download_eval/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="download model">
+    </form>
+
+     <form action="../" method="post">
+        {% csrf_token %}
+        <input type="submit" value="training mode">
+    </form>
+ 
+{{ views_str|safe }}
+
+<!--<meta http-equiv="refresh" content="60">   -->
+
+
+<p></p>
+<p>Dependencies: nnUnet(https://github.com/MIC-DKFZ/nnUNet)</p>
+
+</body>
+</html>

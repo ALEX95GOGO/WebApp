@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>beta(CRI-SZ)</title>
+</head>
+{% load static %}
+{{name}}<img src="{% static "images/logo.png" %}" alt="ui-logo">
+
+<body>
+    <h1>Automated training platform</h1>
+    
+    
+    <form action="/prepare_data/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="prepare data">
+    </form>
+    
+    <form action="/plan/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="plan">
+    </form>
+    
+    <form action="/train/" method="post">
+        {% csrf_token %}
+        <input type="submit" value={{ button }} "training">
+        <!--<input type="submit" value="train">-->
+    </form>
+    
+    <form action="/predict/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="predict">
+    </form>
+    <p> planning progress: {{ planned_cases }}  {{ file_num }}  </p>
+    <p> training progress:{{ epoch }} {{ total_epoch }} </p>
+    <!--<p> predicting progress:{{ num_predicted }} {{ ts_image }} </p>-->
+    <form action="/evaluate/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="evaluation">
+    </form>
+
+
+
+{{ views_str|safe }}
+<img src="/img/progress.png" alt="progress"/ width="1000" height="800">
+
+
+<meta http-equiv="refresh" content="60">   
+
+
+<p></p>
+<p>Dependencies: nnUnet(https://github.com/MIC-DKFZ/nnUNet)</p>
+</body>
+</html>

@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     full_path = r'./log/training_flag.file'  
     file = open(full_path, 'w')
-    with open('./log/train_label.file','w',encoding='utf-8') as f:
+    with open('./log/training_flag.file','w',encoding='utf-8') as f:
         print('writing')
         text = 'train'
         f.write(text)

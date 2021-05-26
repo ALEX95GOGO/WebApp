@@ -9,6 +9,7 @@ import SimpleITK as sitk
 import getopt
 import sys
 import cv2
+from medpy import metric
 
 '''
     1. using the result of nnunet, generate dice result and compared with the ground truth
@@ -167,10 +168,8 @@ def OverlayMaskOnCT(ct_array, mask_gt, mask_predict,save_path):
     mask_predict = mask_predict*255
     mask_predict[mask_predict>125] = 255
     mask_predict[mask_predict<=125] = 0
-    # mask_predict = mask_predict.squeeze()
     mask_predict = mask_predict.astype(np.uint8)
 
-    #print(ct_array.shape[0])
     for i in range(ct_array.shape[0]):
         img1 = cv2.cvtColor(ct_array[i], cv2.COLOR_GRAY2RGB)
         img2 = mask_gt[i]
@@ -185,8 +184,9 @@ def OverlayMaskOnCT(ct_array, mask_gt, mask_predict,save_path):
     
         final_image = cv2.drawContours(img1, contour_gt, -1, (0, 0, 255), 1) 
                                                                              
-        final_image = cv2.drawContours(final_image, contour_predict, -1, (255, 0, 0), 1) 
+        final_image = cv2.drawContours(final_image, contour_predict, -1, (0, 255, 0), 1) 
         cv2.imwrite(save_path+'/'+str(i)+'.bmp', final_image) 
+        
 def load_image(root, series, key):
 
     img_file = os.path.join(root, series)
@@ -220,6 +220,118 @@ def normalization(image,window):
     image[image>1] = 1
     image[image<0] = 0
     return image
+
+def assert_shape(test, reference):
+
+    assert test.shape == reference.shape, "Shape mismatch: {} and {}".format(
+        test.shape, reference.shape)
+
+class ConfusionMatrix:
+
+    def __init__(self, test=None, reference=None):
+
+        self.tp = None
+        self.fp = None
+        self.tn = None
+        self.fn = None
+        self.size = None
+        self.reference_empty = None
+        self.reference_full = None
+        self.test_empty = None
+        self.test_full = None
+        self.set_reference(reference)
+        self.set_test(test)
+
+    def set_test(self, test):
+
+        self.test = test
+        self.reset()
+
+    def set_reference(self, reference):
+
+        self.reference = reference
+        self.reset()
+
+    def reset(self):
+
+        self.tp = None
+        self.fp = None
+        self.tn = None
+        self.fn = None
+        self.size = None
+        self.test_empty = None
+        self.test_full = None
+        self.reference_empty = None
+        self.reference_full = None
+
+    def compute(self):
+
+        if self.test is None or self.reference is None:
+            raise ValueError("'test' and 'reference' must both be set to compute confusion matrix.")
+
+        assert_shape(self.test, self.reference)
+
+        self.tp = int(((self.test != 0) * (self.reference != 0)).sum())
+        self.fp = int(((self.test != 0) * (self.reference == 0)).sum())
+        self.tn = int(((self.test == 0) * (self.reference == 0)).sum())
+        self.fn = int(((self.test == 0) * (self.reference != 0)).sum())
+        self.size = int(np.prod(self.reference.shape, dtype=np.int64))
+        self.test_empty = not np.any(self.test)
+        self.test_full = np.all(self.test)
+        self.reference_empty = not np.any(self.reference)
+        self.reference_full = np.all(self.reference)
+
+    def get_matrix(self):
+
+        for entry in (self.tp, self.fp, self.tn, self.fn):
+            if entry is None:
+                self.compute()
+                break
+
+        return self.tp, self.fp, self.tn, self.fn
+
+    def get_size(self):
+
+        if self.size is None:
+            self.compute()
+        return self.size
+
+    def get_existence(self):
+
+        for case in (self.test_empty, self.test_full, self.reference_empty, self.reference_full):
+            if case is None:
+                self.compute()
+                break
+
+        return self.test_empty, self.test_full, self.reference_empty, self.reference_full
+
+def hausdorff_distance(test=None, reference=None, confusion_matrix=None, nan_for_nonexisting=True, voxel_spacing=None, connectivity=1, **kwargs):
+
+    if confusion_matrix is None:
+        confusion_matrix = ConfusionMatrix(test, reference)
+
+    test_empty, test_full, reference_empty, reference_full = confusion_matrix.get_existence()
+
+    if test_empty or test_full or reference_empty or reference_full:
+        if nan_for_nonexisting:
+            return float("NaN")
+        else:
+            return 0
+
+    test, reference = confusion_matrix.test, confusion_matrix.reference
+
+    return metric.hd(test, reference, voxel_spacing, connectivity)
+
+def Itk2array(nii_path):
+    '''
+    read nii.gz and convert to numpy array
+    '''
+    itk_data = sitk.ReadImage(nii_path)
+    data = sitk.GetArrayFromImage(itk_data)
+    #data_array = np.transpose(data, (2, 1, 0))
+    return data
+	
+
 if __name__ == "__main__":
     inputarg=""
     outputarg=""
@@ -253,21 +365,19 @@ if __name__ == "__main__":
     mask_path = r"{}/nnUNet_raw_data/Task{}_{}/labelsTs/".format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
     nnunet_path = r"{}/result/Task{}_{}/".format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
     task_name = '{}'
-    files = os.listdir(nii_path)
+    
     output_dir = r"{}/compare/Task{}_{}/".format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0])
+    files = os.listdir(nii_path)
     #ctv_path = r"H:/breast_k/cropped_data/test/"
     mkdir(output_dir)
-    csv_name = output_dir+'/testdice_single.xls'
-    csvfile = open(csv_name,"w",newline='')
-    csvwriter = csv.writer(csvfile)
-    csvwriter.writerow(['case','num','dice'])
     
     v_name = output_dir+'/testdice_volume.xls'
     vfile = open(v_name,"w",newline='')
     vwriter = csv.writer(vfile)
-    vwriter.writerow(['case','num','dice'])
+    vwriter.writerow(['case','dice'])
     dice_ALN = []
     dice_sum = 0
+    h_dist_sum = 0
     for file in files:
         index = file.rfind('_')
         name_p = file[:index]
@@ -326,11 +436,11 @@ if __name__ == "__main__":
         '''    
         
             
-            
-        
         dice = dice_score(mask_gt,predict)
+        #h_dist = hausdorff_distance(test=mask_gt,reference=predict)
         dice_sum += dice
-        vwriter.writerow([str(name),'volume',str(dice)])
+        #h_dist_sum += h_dist
+        vwriter.writerow([str(name), str(dice)])
         result = predict*2+mask_gt
         new_img = sitk.GetImageFromArray(result)
         sitk.WriteImage(new_img, output_dir+str(name)+'_result.nii.gz')
@@ -338,10 +448,14 @@ if __name__ == "__main__":
         ct_array = load_image(ct_path, output_dir, '/'+str(name)+'_image.nii.gz')
         mkdir(output_dir+'/'+str(name))
         OverlayMaskOnCT(ct_array,mask_gt,predict,output_dir+'/'+str(name))
-        print ("%s Dice is %s" %(name,dice))
+        print ("%s Dice is %s " %(name,dice))
     print("Average dice is %s" % (dice_sum/len(files)))
+    vwriter.writerow(['Average Dice',str(dice_sum/len(files))])
+
     with open('./log/dice.file','w',encoding='utf-8') as f:
         text = str(dice_sum/len(files))
         f.write(text)
-    csvfile.close()
+    #f.close()
     vfile.close()
+    
+	

@@ -83,8 +83,8 @@ if __name__ == '__main__':
             data1 = f.read()
             s1 = re.split('\n', data1)
             print(s1[0])
-        input_dir  =  r"../data/dcm_base/Task{}/".format(s1[0])
-        output_dir = r"../data/nii_base/Task{}/".format(s1[0])
+        input_dir  =  r"../data/dcm_base/Eval{}/".format(s1[0])
+        output_dir = r"../data/nii_base/Eval{}/".format(s1[0])
         mkdir(output_dir)
         input_case,output_case = [],[]
         for case in os.listdir(input_dir):

@@ -3,20 +3,306 @@ Please cite the following paper when using nnUNet:
 Fabian Isensee, Paul F. Jäger, Simon A. A. Kohl, Jens Petersen, Klaus H. Maier-Hein "Automated Design of Deep Learning Methods for Biomedical Image Segmentation" arXiv preprint arXiv:1904.08128 (2020).
 If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
 
-using model stored in  /home/data/nnunet/nnUNet_trained_models/nnUNet/3d_fullres/Task155_LungL/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1
+using model stored in  /home/data/nnunet/nnUNet_trained_models/nnUNet/2d/Task666_External/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1
 This model expects 1 input modalities for each image
-Found 19 unique case ids, here are some examples: ['LungL_006523' 'LungL_006805' 'LungL_006542' 'LungL_007580'
- 'LungL_003718' 'LungL_006972' 'LungL_006582' 'LungL_007688'
- 'LungL_006471' 'LungL_007580']
+Found 16 unique case ids, here are some examples: ['External_038695' 'External_037452' 'External_037271' 'External_035592'
+ 'External_036966' 'External_033342' 'External_036966' 'External_033349'
+ 'External_033338' 'External_033349']
 If they don't look right, make sure to double check your filenames. They must end with _0000.nii.gz etc
-number of cases: 19
-number of cases that still need to be predicted: 0
+number of cases: 16
+number of cases that still need to be predicted: 16
 emptying cuda cache
 loading parameters for folds, [0]
-2021-04-29 03:19:06.787712: Using dummy2d data augmentation
-using the following model files:  ['/home/data/nnunet/nnUNet_trained_models/nnUNet/3d_fullres/Task155_LungL/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model']
+using the following model files:  ['/home/data/nnunet/nnUNet_trained_models/nnUNet/2d/Task666_External/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model']
 starting preprocessing generator
 starting prediction...
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_035592.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 61, 512, 512) after crop: (1, 61, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 61, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 61, 512, 512)} 
+
+normalization...
+normalization done
+(1, 61, 512, 512)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_037551.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 64, 512, 512) after crop: (1, 64, 512, 512) spacing: [5.         1.01757812 1.01757812] 
+
+resampling
+resampling
+before: {'spacing': array([5.        , 1.01757812, 1.01757812]), 'spacing_transposed': array([5.        , 1.01757812, 1.01757812]), 'data.shape (data is transposed)': (1, 64, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 64, 534, 534)} 
+
+normalization...
+normalization done
+(1, 64, 534, 534)
+This worker has ended successfully, no errors to report
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_035215.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 61, 512, 512) after crop: (1, 61, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 61, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 61, 512, 512)} 
+
+normalization...
+normalization done
+(1, 61, 512, 512)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_037543.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 64, 512, 512) after crop: (1, 64, 512, 512) spacing: [5.       1.015625 1.015625] 
+
+resampling
+resampling
+before: {'spacing': array([5.      , 1.015625, 1.015625]), 'spacing_transposed': array([5.      , 1.015625, 1.015625]), 'data.shape (data is transposed)': (1, 64, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 64, 532, 532)} 
+
+normalization...
+normalization done
+(1, 64, 532, 532)
+This worker has ended successfully, no errors to report
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_033342.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 64, 512, 512) after crop: (1, 64, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 64, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 64, 512, 512)} 
+
+normalization...
+normalization done
+(1, 64, 512, 512)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_037271.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 60, 512, 512) after crop: (1, 60, 512, 512) spacing: [5.         1.00195312 1.00195312] 
+
+resampling
+resampling
+before: {'spacing': array([5.        , 1.00195312, 1.00195312]), 'spacing_transposed': array([5.        , 1.00195312, 1.00195312]), 'data.shape (data is transposed)': (1, 60, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 60, 525, 525)} 
+
+normalization...
+normalization done
+(1, 60, 525, 525)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_038695.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 62, 512, 512) after crop: (1, 62, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 62, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 62, 512, 512)} 
+
+normalization...
+normalization done
+(1, 62, 512, 512)
+This worker has ended successfully, no errors to report
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_033338.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 63, 512, 512) after crop: (1, 63, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 63, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 63, 512, 512)} 
+
+normalization...
+normalization done
+(1, 63, 512, 512)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_036966.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 60, 512, 512) after crop: (1, 60, 512, 512) spacing: [5.         1.05273438 1.05273438] 
+
+resampling
+resampling
+before: {'spacing': array([5.        , 1.05273438, 1.05273438]), 'spacing_transposed': array([5.        , 1.05273438, 1.05273438]), 'data.shape (data is transposed)': (1, 60, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 60, 552, 552)} 
+
+normalization...
+normalization done
+(1, 60, 552, 552)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_038553.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 57, 512, 512) after crop: (1, 57, 512, 512) spacing: [5.         1.03320312 1.03320312] 
+
+resampling
+resampling
+before: {'spacing': array([5.        , 1.03320312, 1.03320312]), 'spacing_transposed': array([5.        , 1.03320312, 1.03320312]), 'data.shape (data is transposed)': (1, 57, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 57, 542, 542)} 
+
+normalization...
+normalization done
+(1, 57, 542, 542)
+This worker has ended successfully, no errors to report
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_033130.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 61, 512, 512) after crop: (1, 61, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 61, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 61, 512, 512)} 
+
+normalization...
+normalization done
+(1, 61, 512, 512)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_036852.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 58, 512, 512) after crop: (1, 58, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 58, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 58, 512, 512)} 
+
+normalization...
+normalization done
+(1, 58, 512, 512)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_038421.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 58, 512, 512) after crop: (1, 58, 512, 512) spacing: [5.         1.06640625 1.06640625] 
+
+resampling
+resampling
+before: {'spacing': array([5.        , 1.06640625, 1.06640625]), 'spacing_transposed': array([5.        , 1.06640625, 1.06640625]), 'data.shape (data is transposed)': (1, 58, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 58, 559, 559)} 
+
+normalization...
+normalization done
+(1, 58, 559, 559)
+This worker has ended successfully, no errors to report
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_033349.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 61, 512, 512) after crop: (1, 61, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 61, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 61, 512, 512)} 
+
+normalization...
+normalization done
+(1, 61, 512, 512)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_037452.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 63, 512, 512) after crop: (1, 63, 512, 512) spacing: [5.        0.9765625 0.9765625] 
+
+resampling
+no resampling necessary
+resampling
+no resampling necessary
+before: {'spacing': array([5.       , 0.9765625, 0.9765625]), 'spacing_transposed': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is transposed)': (1, 63, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 63, 512, 512)} 
+
+normalization...
+normalization done
+(1, 63, 512, 512)
+preprocessing /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_038700.nii.gz
+using preprocessor PreprocessorFor2D
+before crop: (1, 66, 512, 512) after crop: (1, 66, 512, 512) spacing: [5.        1.0703125 1.0703125] 
+
+resampling
+resampling
+before: {'spacing': array([5.       , 1.0703125, 1.0703125]), 'spacing_transposed': array([5.       , 1.0703125, 1.0703125]), 'data.shape (data is transposed)': (1, 66, 512, 512)} 
+after:  {'spacing': array([5.       , 0.9765625, 0.9765625]), 'data.shape (data is resampled)': (1, 66, 561, 561)} 
+
+normalization...
+normalization done
+(1, 66, 561, 561)
+This worker has ended successfully, no errors to report
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+force_separate_z: None interpolation order: 1
+no resampling necessary
+force_separate_z: None interpolation order: 1
+separate z: True lowres axis [0]
+resampling
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_033338.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_033342.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_035592.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_035215.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_033130.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_033349.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_037271.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_036966.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_037551.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_036852.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_037543.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_037452.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_038695.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_038553.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_038421.nii.gz
+debug: mirroring False mirror_axes (0, 1)
+predicting /home/data/nnunet/nnUNet_raw_data_base/result/Task666_External/External_038700.nii.gz
+debug: mirroring False mirror_axes (0, 1)
 inference done. Now waiting for the segmentation export to finish...
 WARNING! Cannot run postprocessing because the postprocessing file is missing. Make sure to run consolidate_folds in the output folder of the model first!
-The folder you need to run this in is /home/data/nnunet/nnUNet_trained_models/nnUNet/3d_fullres/Task155_LungL/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1
+The folder you need to run this in is /home/data/nnunet/nnUNet_trained_models/nnUNet/2d/Task666_External/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1

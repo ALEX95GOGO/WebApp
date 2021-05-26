@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>beta(CRI-SZ)</title>
+</head>
+{% load static %}
+{{name}}<img src="{% static "images/logo.png" %}" alt="ui-logo">
+
+<body>
+    <h1>Automated training platform</h1>
+    
+    <form action="/check_existing_id/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="check existing id">
+    </form>
+    <p>Existing IDs are:{{ ids }} </p>
+    
+    <p>Input task ID here (example: 111)</p>
+    <form action="/input_id/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="task ID:">
+        <input type="text" name="q0">
+    </form>
+    
+    <form action="/upload_page/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="import">
+    </form>
+
+
+
+<p></p>
+<p>Dependencies: nnUnet(https://github.com/MIC-DKFZ/nnUNet)</p>
+</body>
+</html>
