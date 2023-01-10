@@ -46,7 +46,7 @@ try:
     with open('./log/labels.txt', 'w') as f:
         f.write('label names: \n'.format(len(niis)))
         for i in range(len(niis_sorted)):
-            f.write('{}->{}\n'.format(niis_sorted[i], nii_counts_sorted[i]))
+            f.write('{}->{:5d}\n'.format(niis_sorted[i][:-7], nii_counts_sorted[i]))
             
 except FileNotFoundError:
     with open('./log/labels.txt', 'w') as f:

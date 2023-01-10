@@ -78,12 +78,9 @@ if __name__ == "__main__":
         print(s1[0])
     with open('./log/' + args[1], "r") as f:
         data2 = f.read()
-        s2 = re.split('\n', data2)
+        s2 = re.split(' ', data2)
         print(s2[0])
-    with open('./log/' + args[2], "r") as f:
-        data3 = f.read()
-        s3 = re.split('\n', data3)
-        print(s3[0])
+
     
     nnUNet_raw_data = os.path.join(os.getenv('nnUNet_raw_data_base'),'nnUNet_raw_data')
     #nnUNet_raw_data = "../../nnUNet_data/nnUNet_raw/nnUNet_raw_data/"

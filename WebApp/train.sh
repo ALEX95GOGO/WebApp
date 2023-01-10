@@ -1,12 +1,12 @@
 #! /bin/sh -e
 
-export nnUNet_raw_data_base="/home/data/nnunet/nnUNet_raw_data_base/"
-export nnUNet_preprocessed="/home/data/nnunet/nnUNet_preprocessed/"
-export RESULTS_FOLDER="/home/data/nnunet/nnUNet_trained_models/"
+export nnUNet_raw_data_base="/home/zhuoli/data/nnUNet_raw_data_base/"
+export nnUNet_preprocessed="/home/zhuoli/data/nnUNet_preprocessed/"
+export RESULTS_FOLDER="/home/zhuoli/data/nnUNet_trained_models/"
 wait
 echo Planning > ./log/training_status.file
 wait
-python3 ./Task121_BreCW.py taskid.file train_label.file rename.file
+python3 ./Taskxxx_multi.py taskid.file train_label.file
 wait
 nnUNet_plan_and_preprocess -t $1 > ./log/plan.file 2>&1 &
 wait
