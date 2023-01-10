@@ -59,6 +59,7 @@ urlpatterns = [
     url(r'^updateUser/', usersController.update_user),
     url(r'^delUser/', usersController.del_user_by_id),
     url(r'^users/', usersController.user_list),
+    url(r'^che/', views.che ,name="che"),
     url(r'^train/progress/(?P<path>.*)$', serve, {'document_root': '{}/nnUNet/{}/Task{}_{}/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/progress.png'.format(os.getenv('RESULTS_FOLDER'),s0[2],s1[0],s2[0])}),
 ]
 

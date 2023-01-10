@@ -10,7 +10,45 @@ import re
 from . import settings
 from django.views.generic import View
 import subprocess
+import pickle
+import numpy as np
 
+def che(request):
+    top_labels ={}
+    if request.method=="POST":
+        check_box_list = request.POST.getlist('check_box_list')
+        if check_box_list:
+            print(check_box_list)
+                  
+            top_labels['label'] = check_box_list
+            with open('./log/train_label.file','w',encoding='utf-8') as f:
+                text = ' '.join(top_labels['label'])
+                f.write(text)
+            return redirect('../')
+            #return HttpResponse("ok")
+        else:
+            #print("fail")
+            return HttpResponse("fail")
+    else:
+    
+        with open('./log/labels.txt', "r") as f:
+                data = f.read()
+                s1 = re.split('\n', data)
+                if (len(s1)>10):
+                    top_labels['tlabel'] = s1[1:20]
+                else:
+                    top_labels['tlabel'] = s1[1:]
+        a = top_labels['tlabel']
+        for ii in range(len(a)):
+            a[ii] = a[ii][:-7]
+        
+        return render(request,'che.html',{'a':a})
+        
+def load_pickle(file, mode='rb'):
+    with open(file, mode) as f:
+        a = pickle.load(f)
+    return a
+    
 def download_file(request):
     response = HttpResponse('click download model!')
     if request.POST:
@@ -23,19 +61,36 @@ def download_file(request):
         with open('./log/train_label.file', "r") as f:
             data = f.read()
             s2 = re.split('\n', data)
-        #file = open("{}/nnUNet/{}/Task{}_{}/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model".format(os.getenv('RESULTS_FOLDER'), s0[2], s1[0], s2[0]), 'rb')
-        file = open("{}/compare/Task{}_{}/testdice_volume.xls".format(os.getenv('nnUNet_raw_data_base'), s1[0], s2[0]), 'rb')
+        
+        pkl_file = r"{}/nnUNet/{}/Task{}_{}/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model.pkl".format(os.getenv('RESULTS_FOLDER'), s0[2], s1[0], s2[0])
+        info = load_pickle(pkl_file)
+        file = open("{}/nnUNet/{}/Task{}_{}/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/params.ini".format(os.getenv('RESULTS_FOLDER'), s0[2], s1[0], s2[0]),'w',encoding='utf-8')
+
+        with file as f:
+            f.write("Strategy = 8"+"\n")
+            f.write("OutputChannel = " + str(info['plans']['num_classes']+1)+"\n")
+            f.write("NeedDLOR = False"+"\n")
+            f.write("DSpacing = " + str(info['plans']['plans_per_stage'][0]['current_spacing'][0])+"\n")
+            f.write("HSpacing = " + str(info['plans']['plans_per_stage'][0]['current_spacing'][1])+"\n")
+            f.write("WSpacing = " + str(info['plans']['plans_per_stage'][0]['current_spacing'][2])+"\n")
+            f.write("WidowsLower = " + str(info['plans']['dataset_properties']['intensityproperties'][0]['percentile_00_5'])+"\n")
+            f.write("WidowsWidth = " + str(info['plans']['dataset_properties']['intensityproperties'][0]['percentile_99_5'])+"\n")
+            f.write("mean = " + str(info['plans']['dataset_properties']['intensityproperties'][0]['mn'])+"\n")
+            f.write("sd = " + str(info['plans']['dataset_properties']['intensityproperties'][0]['sd'])+"\n")
+        #f.close()
+
+        file = open("{}/nnUNet/{}/Task{}_{}/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/params.ini".format(os.getenv('RESULTS_FOLDER'), s0[2], s1[0], s2[0]), 'rb')
+        #file = open("{}/compare/Task{}_{}/testdice_volume.xls".format(os.getenv('nnUNet_raw_data_base'), s1[0], s2[0]), 'rb')
         #file = open('/home/data/nnunet/nnUNet_trained_models/nnUNet/3d_fullres/Task155_LungL/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model', 'rb')
         response = FileResponse(file)
         response['Content-Type'] = 'application/octet-stream'
         #response['Content-Disposition'] = 'attachment;filename="Task{}.pth"'.format(s1[0])
-        response['Content-Disposition'] = 'attachment;filename="Task{}_Dice.csv"'.format(s1[0])
-        
+        #response['Content-Disposition'] = 'attachment;filename="Task{}_Dice.csv"'.format(s1[0])
+        response['Content-Disposition'] = 'attachment;filename="Task{}_params.ini"'.format(s1[0])
         #file = open('/home/data/nnunet/nnUNet_trained_models/nnUNet/3d_fullres/Task155_LungL/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model', 'rb')
         #response = FileResponse(file)
         #response['Content-Type'] = 'application/octet-stream'
         #response['Content-Disposition'] = 'attachment;filename="Task{}.pth"'.format(s1[0])
-
     return response
 
 def download_file_eval(request):
@@ -168,13 +223,26 @@ def check_label(request):
     return render(request, "search_form.html", top_labels)
 
 def choose_label(request):
-    label_in ={}
+    top_labels ={}
+    #if request.POST:
+    #    label_in['label'] = request.POST['q1']
+    #    with open('./log/train_label.file','w',encoding='utf-8') as f:
+    #        text = str(label_in['label'])
+    #        f.write(text)
+    with open('./log/labels.txt', "r") as f:
+        data = f.read()
+        s1 = re.split('\n', data)
+        if (len(s1)>10):
+            top_labels['tlabel'] = s1[1:20]
+        else:
+            top_labels['tlabel'] = s1[1:]
+        a = top_labels['tlabel']
+        for ii in range(len(a)):
+            a[ii] = a[ii][:-7]
+    
     if request.POST:
-        label_in['label'] = request.POST['q1']
-        with open('./log/train_label.file','w',encoding='utf-8') as f:
-            text = str(label_in['label'])
-            f.write(text)
-    return render(request, "search_form.html", label_in)
+        return redirect('../che')
+    return render(request, "che.html",{'a':a})
 
 
 def rename(request):
@@ -430,87 +498,88 @@ def train(request):
         s1 = re.split('\n', data)
     with open('./log/train_label.file', "r") as f:
         data = f.read()
-        s2 = re.split('\n', data)
+        s2 = re.split(' ', data)
     
     if request.POST:
-      os.system('chmod +x train.sh')
-
-      subprocess.Popen("bash train.sh {} {} {} {}> ./log/train.file 2>&1 &".format(int(s1[0]),s2[0],s0[2],os.getenv('nnUNet_raw_data_base')), shell=True)
-      #os.system('python3 ./Task121_BreCW.py taskid.file train_label.file')
-      #os.system('python3 ./Task121_BreCW.py taskid.file train_label.file')
-      #print('start planning')
-      #p_plan = subprocess.Popen("nnUNet_plan_and_preprocess -t {} > ./log/plan.file 2>&1 &".format(int(s1[0])), shell=True)      
-      #with open('./log/training_status.file','w',encoding='utf-8') as f:
-      #    f.write('planning\n')
-      #os.system('nnUNet_plan_and_preprocess -t {}'.format(int(s1[0])))
-    
+        os.system('chmod +x train.sh')
+        subprocess.Popen("bash train.sh {} {} {} {}> ./log/train.file 2>&1 &".format(int(s1[0]),s2[0],s0[2],os.getenv('nnUNet_raw_data_base')), shell=True)
+        with open('./log/training_status.file','w',encoding='utf-8') as f:
+            f.write('Planning')
+        #os.system('python3 ./Taskxxx_multi.py taskid.file train_label.file')
+        #os.system('python3 ./Task121_BreCW.py taskid.file train_label.file')
+        #print('start planning')
+        #p_plan = subprocess.Popen("nnUNet_plan_and_preprocess -t {} > ./log/plan.file 2>&1 &".format(int(s1[0])), shell=True)      
+        #with open('./log/training_status.file','w',encoding='utf-8') as f:
+        #    f.write('planning\n')
+        #os.system('nnUNet_plan_and_preprocess -t {}'.format(int(s1[0])))
+      
     '''
-    with open('./log/mode.file', "r") as f:
-        data = f.read()
-        s0 = re.split('/', data)
-        print(s0[2])
-    with open('./log/taskid.file', "r") as f:
-        data = f.read()
-        s1 = re.split('\n', data)
-        print(s1[0])
-    with open('./log/train_label.file', "r") as f:
-        data = f.read()
-        s2 = re.split('\n', data)
-    
-    
-    with open('./log/train_label.file','r',encoding='utf-8') as f:
-        label = f.read()
-        mode_in['label'] = str(label)
-    with open('./log/taskid.file','r',encoding='utf-8') as f:
-        id = f.read()
-        mode_in['id'] = str(id)
-    with open('./log/mode.file','r',encoding='utf-8') as f:
-        mode_all = f.read()
-        s_mode = re.split('/', mode_all)
-        mode_in['mode'] = str(s_mode[2])
-    
-    
-    if request.POST:
-        with open('./log/training_status.file','w',encoding='utf-8') as f:
-            f.write('training\n')
-        if os.path.exists('{}/nnUNet/{}/Task{}_{}/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model'.format(os.getenv('RESULTS_FOLDER'),s0[2],s1[0],s2[0])):
-            #p_train = subprocess.Popen('nnUNet_train -c {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz > ./log/train.file 2>&1 &'.format(s0[2],int(s1[0])), shell=True)
-            os.system('nnUNet_train -c {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz'.format(s0[2],int(s1[0])))
-            print('continue training')
-            #pid_ = p_train.pid + 1
-            trained['button'] = 'stop'
-            with open('./log/training_flag.file','w',encoding='utf-8') as f:
-                f.write('stop\n')
-        else:
-            #p_train = subprocess.Popen('nnUNet_train {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz > ./log/train.file 2>&1 &'.format(s0[2],int(s1[0])), shell=True)
-            os.system('nnUNet_train {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz'.format(s0[2],int(s1[0])))
-            #pid_ = p_train.pid + 1
-            flag = 'stop'
-            trained['button'] = 'stop'
-            with open('./log/training_flag.file','w',encoding='utf-8') as f:
-                f.write('stop\n')
-                #f.write(str(pid_))
-        
-    with open('./log/mode.file', "r") as f:
-        data = f.read()
-        s0 = re.split('/', data)
-    with open('./log/taskid.file', "r") as f:
-        data = f.read()
-        s1 = re.split('\n', data)
-    with open('./log/train_label.file', "r") as f:
-        data = f.read()
-        s2 = re.split('\n', data)
-                
-        
-    if request.POST:
-        print("start prediction")
-        with open('./log/training_status.file','w',encoding='utf-8') as f:
-            f.write('predicting\n')
-        #p_predict = subprocess.Popen('nnUNet_predict -i {}/nnUNet_raw_data/Task{}_{}/imagesTs/ -o {}/result/Task{}_{} -t {} -m {} -f 0 -tr nnUNetTrainerV2_noDeepSupervision --disable_tta -chk model_best > ./log/predict.file 2>&1 &'.format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0],os.getenv('nnUNet_raw_data_base'),s1[0],s2[0],s1[0],s0[2]))
-        os.system('nnUNet_predict -i {}/nnUNet_raw_data/Task{}_{}/imagesTs/ -o {}/result/Task{}_{} -t {} -m {} -f 0 -tr nnUNetTrainerV2_noDeepSupervision --disable_tta -chk model_best'.format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0],os.getenv('nnUNet_raw_data_base'),s1[0],s2[0],s1[0],s0[2]))
-    epoch = read_log('./log/train.file', r'epoch: .{4}')
-    trained['epoch'] = epoch
-    trained['total_epoch'] = ' / '+str(250)
+      with open('./log/mode.file', "r") as f:
+          data = f.read()
+          s0 = re.split('/', data)
+          print(s0[2])
+      with open('./log/taskid.file', "r") as f:
+          data = f.read()
+          s1 = re.split('\n', data)
+          print(s1[0])
+      with open('./log/train_label.file', "r") as f:
+          data = f.read()
+          s2 = re.split('\n', data)
+      
+      
+      with open('./log/train_label.file','r',encoding='utf-8') as f:
+          label = f.read()
+          mode_in['label'] = str(label)
+      with open('./log/taskid.file','r',encoding='utf-8') as f:
+          id = f.read()
+          mode_in['id'] = str(id)
+      with open('./log/mode.file','r',encoding='utf-8') as f:
+          mode_all = f.read()
+          s_mode = re.split('/', mode_all)
+          mode_in['mode'] = str(s_mode[2])
+      
+      
+      if request.POST:
+          with open('./log/training_status.file','w',encoding='utf-8') as f:
+              f.write('training\n')
+          if os.path.exists('{}/nnUNet/{}/Task{}_{}/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/model_best.model'.format(os.getenv('RESULTS_FOLDER'),s0[2],s1[0],s2[0])):
+              #p_train = subprocess.Popen('nnUNet_train -c {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz > ./log/train.file 2>&1 &'.format(s0[2],int(s1[0])), shell=True)
+              os.system('nnUNet_train -c {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz'.format(s0[2],int(s1[0])))
+              print('continue training')
+              #pid_ = p_train.pid + 1
+              trained['button'] = 'stop'
+              with open('./log/training_flag.file','w',encoding='utf-8') as f:
+                  f.write('stop\n')
+          else:
+              #p_train = subprocess.Popen('nnUNet_train {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz > ./log/train.file 2>&1 &'.format(s0[2],int(s1[0])), shell=True)
+              os.system('nnUNet_train {} nnUNetTrainerV2_noDeepSupervision {} 0 --npz'.format(s0[2],int(s1[0])))
+              #pid_ = p_train.pid + 1
+              flag = 'stop'
+              trained['button'] = 'stop'
+              with open('./log/training_flag.file','w',encoding='utf-8') as f:
+                  f.write('stop\n')
+                  #f.write(str(pid_))
+          
+      with open('./log/mode.file', "r") as f:
+          data = f.read()
+          s0 = re.split('/', data)
+      with open('./log/taskid.file', "r") as f:
+          data = f.read()
+          s1 = re.split('\n', data)
+      with open('./log/train_label.file', "r") as f:
+          data = f.read()
+          s2 = re.split('\n', data)
+                  
+          
+      if request.POST:
+          print("start prediction")
+          with open('./log/training_status.file','w',encoding='utf-8') as f:
+              f.write('predicting\n')
+          #p_predict = subprocess.Popen('nnUNet_predict -i {}/nnUNet_raw_data/Task{}_{}/imagesTs/ -o {}/result/Task{}_{} -t {} -m {} -f 0 -tr nnUNetTrainerV2_noDeepSupervision --disable_tta -chk model_best > ./log/predict.file 2>&1 &'.format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0],os.getenv('nnUNet_raw_data_base'),s1[0],s2[0],s1[0],s0[2]))
+          os.system('nnUNet_predict -i {}/nnUNet_raw_data/Task{}_{}/imagesTs/ -o {}/result/Task{}_{} -t {} -m {} -f 0 -tr nnUNetTrainerV2_noDeepSupervision --disable_tta -chk model_best'.format(os.getenv('nnUNet_raw_data_base'),s1[0],s2[0],os.getenv('nnUNet_raw_data_base'),s1[0],s2[0],s1[0],s0[2]))
+      epoch = read_log('./log/train.file', r'epoch: .{4}')
+      trained['epoch'] = epoch
+      trained['total_epoch'] = ' / '+str(250)
     '''
     with open('./log/training_status.file', "r") as f:
         data = f.read()

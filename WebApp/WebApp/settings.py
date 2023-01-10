@@ -128,4 +128,4 @@ STATICFILES_DIRS = [
 
 #MEDIA_ROOT = '/home/img/data/nnUNet_trained_models/nnUNet/2d/Task121_optic_r/nnUNetTrainerV2_noDeepSupervision__nnUNetPlansv2.1/fold_0/'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '10.8.61.13','10.8.77.18','10.8.61.33']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '10.8.61.13','10.8.77.18','10.8.61.33', '10.9.92.188']
