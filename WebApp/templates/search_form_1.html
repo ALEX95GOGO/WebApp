@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>beta(CRI-SZ)</title>
+</head>
+{% load static %}
+{{name}}<img src="{% static "images/logo.png" %}" alt="ui-logo">
+
+<body>
+    <h1>Automated training platform</h1>
+
+    <form action="/check_existing_id/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="check existing id">
+    </form>
+    <p>Existing IDs are:{{ ids }} </p>
+    
+    <p>Input task ID here (example: 111)</p>
+    <form action="/input_id/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="task ID:">
+        <input type="text" name="q0">
+    </form>
+    
+    <form action="/upload_page/" form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="submit" value="import">
+    </form>
+    
+    <!--<p>Task ID is: {{ rlt }}</p> -->
+    
+   
+    <form action="/prepare_data/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="prepare data">
+    </form>
+    <p> {{ prepare_status }} </p>
+    
+    <form action="/check_label/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="check label">
+    </form>
+    <p>Available label names are:{{ tlabel }} </p>
+    
+    <!--
+    <form action="/rename/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="mapping">
+        <input type="text" name="q1">
+    </form>
+    -->
+    <form action="/choose_label/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="label name">
+        <input type="text" name="q1">
+    </form>
+    
+    <p>Mode: <p>
+
+    <form action="/mode/2d/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="2d">
+    </form>
+    
+    <form action="/mode/3d_fullres/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="3d">
+    </form>
+
+    <!--
+    <form action="/mode/3d_cascade/" form method="post">
+        {% csrf_token %}
+        <input type="submit" value="3d_cascade">
+    </form>
+    -->
+    
+    <p>Task ID is: {{ id }} </p>  
+    <p>Label choosen is: {{ label }} </p>
+    <p>Mode choosen is: {{ mode }} </p>
+    
+    <!--
+    <form action="/plan/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="plan">
+    </form>
+    -->
+    <form action="/train/" method="post">
+        {% csrf_token %}
+        <!--<input type="submit" value={{ button }} "training">-->
+        <input type="submit" value="train">
+    </form>
+
+    <!--
+    <form action="/predict/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="predict">
+    </form>
+    <p> planning progress: {{ planned_cases }}  {{ file_num }}  </p>
+    -->
+    <!--<p> training progress:{{ epoch }} {{ total_epoch }} </p>-->
+    <p> training progress: {{ train_status }}
+    <!--<p> predicting progress:{{ num_predicted }} {{ ts_image }} </p>-->
+    <form action="/evaluate/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="evaluation">
+    </form>
+    
+    
+    <form action="/check_result/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="check result">
+    </form>
+    
+
+    <form action="/download/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="download model">
+    </form>
+
+ 
+     <form action="/eval_mode/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="evaluation mode">
+    </form>
+    
+    
+<!--
+<div class="col-md-3">
+    <select class="bs-select form-control" data-live-search="true" data-size="8" name="underwriter" >
+        <option value="">please select</option>
+        {% for obj in underwriters %}
+        <option value="{{ obj.underwriter }}" {% if stock.underwriter.underwriter == obj.underwriter %} selected {% endif %} >{{ obj.shortname }}</option>
+        {% endfor %}
+    </select>
+</div>
+-->
+
+<!--<div id="divID" style="display: none;">-->
+{{ views_str|safe }}
+<img src="/img/progress.png" alt="progress"/ width="1000" height="800">
+<!--</div>-->
+
+<!--
+<input type="button" value="show" onclick="document.getElementById(&quot;divID&quot;).style.display=&quot;block&quot;">
+<input type="button" value="hidden" onclick="document.getElementById(&quot;divID&quot;).style.display=&quot;none&quot;">
+
+
+<body>
+    <!--1. button--
+    <div class="container">
+ 
+        <button class="btn btn-default" type="button">show progress bar</button>
+ 
+ 
+	    <!--2. progress bar--
+	    <div  class="progress-div">
+	        <div class="progress">
+	            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 2%;">
+	                2%
+	            </div>
+	        </div>
+	    </div>
+ 
+    </br>
+ 
+         <div class="progress-text progress-bar-striped active"  role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 2%;">
+ 
+	            </div>
+ 
+ 
+ 
+    </div>
+</body>
+
+
+<script>
+ 
+ $(function () {
+        $('.btn').on('click', function () {
+                console.log("come in ")
+                var log = ""
+                var sitv = setInterval(function(){
+ 
+                    var prog_url = '/show_progress'              
+                    $.getJSON(prog_url, function(num_progress){
+ 
+ 
+{#                         console.log("come in num_progress="+num_progress)#}
+                        log = log + num_progress+ "-"
+                        $('.progress-div').css('visibility', 'visible');
+                        $('.progress-bar').css('width', num_progress + '%');
+                        $('.progress-bar').text(num_progress + '%');
+                        $('.progress-text').text( 'showlog'+log );
+                        $('.progress-text').css('width', '100%');
+ 
+            {#            $('#prog_in').width(res + '%');     
+                         if(num_progress == '99'){
+                              console.log("come in 99")
+                            clearInterval(sitv);
+                            $('.progress-bar').css('width', '100%');
+                            $('.progress-bar').text('100%');
+                        }
+ 
+                    });
+ 
+ 
+                }, 10);                               
+ 
+ 
+            var thisurl = '/process_data'                      
+{#            var yourjson = '90'#}
+            $.getJSON(thisurl, function(res){
+            // ...
+ 
+             console.log("sitv over res"+res)
+                clearInterval(sitv);                   
+            });
+ 
+        })
+})
+ 
+ 
+ 
+</script>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>silde image demo</title>
+    <style>
+        .stage {
+                display:flex;
+            margin:100px auto auto auto;
+            width:400px;
+            height:400px;
+            overflow:hidden;
+        }
+         
+    </style>
+    <script>
+
+        window.addEventListener('load',function(){
+            var imgUrls = ['/prediction/DoubleLung_005927/0.bmp','/prediction/DoubleLung_005927/1.bmp','/prediction/DoubleLung_005927/2.bmp','/prediction/DoubleLung_005927/3.bmp','/prediction/DoubleLung_005927/4.bmp','/prediction/DoubleLung_005927/5.bmp'];
+            var imgSrcs = imgUrls;
+            var interval = 1000;
+            var viewer = document.getElementById('viewer');
+            var current = 0;
+            var len = imgSrcs.length;
+            var setImage = function(){
+             
+                viewer.src = imgSrcs[current];
+                current = ++current>len-1? 0 : current;
+             
+            };
+             
+            setImage();
+             
+            setInterval(setImage,interval);
+             
+        });
+        */
+    </script>
+</head>
+<body>
+    <div class="stage">
+        <img id="viewer" src="#" alt="">
+    </div>
+</body>
+-->
+<meta http-equiv="refresh" content="60">   
+
+
+<p></p>
+<p>Dependencies: nnUnet(https://github.com/MIC-DKFZ/nnUNet)</p>
+
+<form action="/stop_training/" method="post">
+    {% csrf_token %}
+    <!--<input type="submit" value={{ button }} "training">-->
+    <input type="submit" value="stop training">
+</form>
+</body>
+
+
+</html>
+
+
+
